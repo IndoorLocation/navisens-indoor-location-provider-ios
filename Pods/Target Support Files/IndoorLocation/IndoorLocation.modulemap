@@ -1,0 +1,6 @@
+framework module IndoorLocation {
+  umbrella header "IndoorLocation-umbrella.h"
+
+  export *
+  module * { export * }
+}

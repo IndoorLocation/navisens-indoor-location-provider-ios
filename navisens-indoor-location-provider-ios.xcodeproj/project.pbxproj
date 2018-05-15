@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		239218D11D907019965B2D41 /* Pods_navisens_indoor_location_provider_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DAB39A86B03C1C47926F25 /* Pods_navisens_indoor_location_provider_ios.framework */; };
+		E401765F20876DE0001BFA03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E401765E20876DE0001BFA03 /* AppDelegate.m */; };
+		E401766220876DE0001BFA03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E401766120876DE0001BFA03 /* ViewController.m */; };
+		E401766520876DE0001BFA03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E401766320876DE0001BFA03 /* Main.storyboard */; };
+		E401766720876DEF001BFA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E401766620876DEF001BFA03 /* Assets.xcassets */; };
+		E401766A20876DEF001BFA03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E401766820876DEF001BFA03 /* LaunchScreen.storyboard */; };
+		E401766D20876DEF001BFA03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E401766C20876DEF001BFA03 /* main.m */; };
+		E401767620876EB7001BFA03 /* ILNavisensIndoorLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E401767520876EB7001BFA03 /* ILNavisensIndoorLocationProvider.m */; };
+		E4017679208795BA001BFA03 /* ILMotionDna.m in Sources */ = {isa = PBXBuildFile; fileRef = E4017678208795BA001BFA03 /* ILMotionDna.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		282B3AE864A7430D74966547 /* Pods-navisens-indoor-location-provider-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navisens-indoor-location-provider-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-navisens-indoor-location-provider-ios/Pods-navisens-indoor-location-provider-ios.release.xcconfig"; sourceTree = "<group>"; };
+		78DAB39A86B03C1C47926F25 /* Pods_navisens_indoor_location_provider_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_navisens_indoor_location_provider_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E401765A20876DE0001BFA03 /* navisens-indoor-location-provider-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "navisens-indoor-location-provider-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E401765D20876DE0001BFA03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E401765E20876DE0001BFA03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E401766020876DE0001BFA03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E401766120876DE0001BFA03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E401766420876DE0001BFA03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E401766620876DEF001BFA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E401766920876DEF001BFA03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E401766B20876DEF001BFA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E401766C20876DEF001BFA03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E401767420876EB7001BFA03 /* ILNavisensIndoorLocationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILNavisensIndoorLocationProvider.h; sourceTree = "<group>"; };
+		E401767520876EB7001BFA03 /* ILNavisensIndoorLocationProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILNavisensIndoorLocationProvider.m; sourceTree = "<group>"; };
+		E4017677208795BA001BFA03 /* ILMotionDna.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILMotionDna.h; sourceTree = "<group>"; };
+		E4017678208795BA001BFA03 /* ILMotionDna.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILMotionDna.m; sourceTree = "<group>"; };
+		E4ECA9F42089E9CD00CF57BA /* ILMotionDnaDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILMotionDnaDelegate.h; sourceTree = "<group>"; };
+		FC518E2416CA2BFFAC4E5BA7 /* Pods-navisens-indoor-location-provider-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navisens-indoor-location-provider-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-navisens-indoor-location-provider-ios/Pods-navisens-indoor-location-provider-ios.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E401765720876DE0001BFA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239218D11D907019965B2D41 /* Pods_navisens_indoor_location_provider_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C65BB16B66840CCBCA7DDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78DAB39A86B03C1C47926F25 /* Pods_navisens_indoor_location_provider_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AC602267A383E15B90E7293 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC518E2416CA2BFFAC4E5BA7 /* Pods-navisens-indoor-location-provider-ios.debug.xcconfig */,
+				282B3AE864A7430D74966547 /* Pods-navisens-indoor-location-provider-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E401765120876DE0001BFA03 = {
+			isa = PBXGroup;
+			children = (
+				E401765C20876DE0001BFA03 /* navisens-indoor-location-provider-ios */,
+				E401765B20876DE0001BFA03 /* Products */,
+				1AC602267A383E15B90E7293 /* Pods */,
+				09C65BB16B66840CCBCA7DDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E401765B20876DE0001BFA03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E401765A20876DE0001BFA03 /* navisens-indoor-location-provider-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E401765C20876DE0001BFA03 /* navisens-indoor-location-provider-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E401767320876E87001BFA03 /* Provider */,
+				E401765D20876DE0001BFA03 /* AppDelegate.h */,
+				E401765E20876DE0001BFA03 /* AppDelegate.m */,
+				E401766020876DE0001BFA03 /* ViewController.h */,
+				E401766120876DE0001BFA03 /* ViewController.m */,
+				E401766320876DE0001BFA03 /* Main.storyboard */,
+				E401766620876DEF001BFA03 /* Assets.xcassets */,
+				E401766820876DEF001BFA03 /* LaunchScreen.storyboard */,
+				E401766B20876DEF001BFA03 /* Info.plist */,
+				E401766C20876DEF001BFA03 /* main.m */,
+			);
+			path = "navisens-indoor-location-provider-ios";
+			sourceTree = "<group>";
+		};
+		E401767320876E87001BFA03 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				E401767420876EB7001BFA03 /* ILNavisensIndoorLocationProvider.h */,
+				E401767520876EB7001BFA03 /* ILNavisensIndoorLocationProvider.m */,
+				E4017677208795BA001BFA03 /* ILMotionDna.h */,
+				E4017678208795BA001BFA03 /* ILMotionDna.m */,
+				E4ECA9F42089E9CD00CF57BA /* ILMotionDnaDelegate.h */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E401765920876DE0001BFA03 /* navisens-indoor-location-provider-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E401767020876DEF001BFA03 /* Build configuration list for PBXNativeTarget "navisens-indoor-location-provider-ios" */;
+			buildPhases = (
+				7C895AC674E838F837F9CE3F /* [CP] Check Pods Manifest.lock */,
+				E401765620876DE0001BFA03 /* Sources */,
+				E401765720876DE0001BFA03 /* Frameworks */,
+				E401765820876DE0001BFA03 /* Resources */,
+				96A1C88D7F3E46B059FC547D /* [CP] Embed Pods Frameworks */,
+				1F7B22FFB1FBF49F16CD50BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "navisens-indoor-location-provider-ios";
+			productName = "navisens-indoor-location-provider-ios";
+			productReference = E401765A20876DE0001BFA03 /* navisens-indoor-location-provider-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E401765220876DE0001BFA03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = IndoorLocation;
+				TargetAttributes = {
+					E401765920876DE0001BFA03 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = E401765520876DE0001BFA03 /* Build configuration list for PBXProject "navisens-indoor-location-provider-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E401765120876DE0001BFA03;
+			productRefGroup = E401765B20876DE0001BFA03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E401765920876DE0001BFA03 /* navisens-indoor-location-provider-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E401765820876DE0001BFA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E401766A20876DEF001BFA03 /* LaunchScreen.storyboard in Resources */,
+				E401766720876DEF001BFA03 /* Assets.xcassets in Resources */,
+				E401766520876DE0001BFA03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F7B22FFB1FBF49F16CD50BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-navisens-indoor-location-provider-ios/Pods-navisens-indoor-location-provider-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C895AC674E838F837F9CE3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-navisens-indoor-location-provider-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96A1C88D7F3E46B059FC547D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-navisens-indoor-location-provider-ios/Pods-navisens-indoor-location-provider-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IndoorLocation/IndoorLocation.framework",
+				"${BUILT_PRODUCTS_DIR}/ManualIndoorLocationProvider/ManualIndoorLocationProvider.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${PODS_ROOT}/MapwizeForMapbox/MapwizeForMapbox.framework",
+				"${PODS_ROOT}/MotionDnaSDK/MotionDnaSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IndoorLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ManualIndoorLocationProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapwizeForMapbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionDnaSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-navisens-indoor-location-provider-ios/Pods-navisens-indoor-location-provider-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E401765620876DE0001BFA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4017679208795BA001BFA03 /* ILMotionDna.m in Sources */,
+				E401767620876EB7001BFA03 /* ILNavisensIndoorLocationProvider.m in Sources */,
+				E401766220876DE0001BFA03 /* ViewController.m in Sources */,
+				E401766D20876DEF001BFA03 /* main.m in Sources */,
+				E401765F20876DE0001BFA03 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E401766320876DE0001BFA03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E401766420876DE0001BFA03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E401766820876DEF001BFA03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E401766920876DEF001BFA03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E401766E20876DEF001BFA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E401766F20876DEF001BFA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E401767120876DEF001BFA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC518E2416CA2BFFAC4E5BA7 /* Pods-navisens-indoor-location-provider-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGHGAE294R;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "navisens-indoor-location-provider-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.indoorlocation.navisens-indoor-location-provider-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E401767220876DEF001BFA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282B3AE864A7430D74966547 /* Pods-navisens-indoor-location-provider-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGHGAE294R;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "navisens-indoor-location-provider-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.indoorlocation.navisens-indoor-location-provider-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E401765520876DE0001BFA03 /* Build configuration list for PBXProject "navisens-indoor-location-provider-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E401766E20876DEF001BFA03 /* Debug */,
+				E401766F20876DEF001BFA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E401767020876DEF001BFA03 /* Build configuration list for PBXNativeTarget "navisens-indoor-location-provider-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E401767120876DEF001BFA03 /* Debug */,
+				E401767220876DEF001BFA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E401765220876DE0001BFA03 /* Project object */;
+}

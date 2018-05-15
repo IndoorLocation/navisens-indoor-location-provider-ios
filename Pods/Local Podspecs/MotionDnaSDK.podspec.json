@@ -1,0 +1,42 @@
+{
+  "name": "MotionDnaSDK",
+  "version": "1.4.0",
+  "summary": "MotionDnaSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/navisens/MotionDnaSDK",
+  "license": {
+    "type": "Commercial",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Navisens, Inc": "lucas.mckenna@navisens.com"
+  },
+  "source": {
+    "git": "https://github.com/navisens/MotionDnaSDK.git",
+    "tag": "1.4.0"
+  },
+  "social_media_url": "https://twitter.com/navisens",
+  "platforms": {
+    "ios": "9.1"
+  },
+  "preserve_paths": "MotionDnaSDK.framework",
+  "source_files": "MotionDnaSDK.framework/Versions/A/Headers/**/*{.h,.hpp}",
+  "public_header_files": "MotionDnaSDK.framework/Versions/A/Headers/**/*{.h,.hpp}",
+  "vendored_frameworks": "MotionDnaSDK.framework",
+  "header_dir": "MotionDnaSDK",
+  "frameworks": [
+    "AVFoundation",
+    "Accelerate",
+    "CoreBluetooth",
+    "CoreData",
+    "CoreGraphics",
+    "CoreLocation",
+    "CoreText",
+    "GLKit",
+    "ImageIO",
+    "OpenGLES",
+    "QuartzCore",
+    "Security",
+    "SystemConfiguration"
+  ]
+}

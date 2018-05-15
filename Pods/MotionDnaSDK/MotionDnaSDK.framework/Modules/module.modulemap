@@ -1,0 +1,6 @@
+framework module MotionDnaSDK {
+  umbrella header "MotionDnaSDK.h"
+
+  export *
+  module * { export * }
+}

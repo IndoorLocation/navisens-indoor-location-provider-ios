@@ -1,0 +1,6 @@
+framework module Pods_navisens_indoor_location_provider_ios {
+  umbrella header "Pods-navisens-indoor-location-provider-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
