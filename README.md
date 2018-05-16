@@ -3,11 +3,11 @@ Provider based on MotionDNA SDK from Navisens. Locate your phone using the built
 
 ## Use
 
-Instantiate the provider with an IndoorLocationProvider as source provider and your Navisens Developper Key. Navisens provider is able to lock onto each updates of the source provider.
-Get your dev key on: https://www.navisens.com
+Instantiate the provider with an IndoorLocationProvider as source provider and your Navisens Key. Navisens provider is able to lock onto each updates of the source provider.
+Get your Navisens key on: https://www.navisens.com
 
 ```
-self.provider = [[ILNavisensIndoorLocationProvider alloc] initWithSourceProvider:self.ILManualProvider navisensDevKey:@"YOUR NAVISENS DEV KEY"];
+self.provider = [[ILNavisensIndoorLocationProvider alloc] initWithSourceProvider:self.ILManualProvider navisensKey:@"YOUR NAVISENS KEY"];
 ```
 
 Set the provider in your Mapwize SDK:
