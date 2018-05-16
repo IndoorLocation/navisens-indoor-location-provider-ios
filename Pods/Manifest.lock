@@ -29,6 +29,14 @@ DEPENDENCIES:
   - MapwizeForMapbox
   - MotionDnaSDK (from `https://github.com/navisens/iOS-SDK.git`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - IndoorLocation
+    - ManualIndoorLocationProvider
+    - Mapbox-iOS-SDK
+    - MapwizeForMapbox
+
 EXTERNAL SOURCES:
   MotionDnaSDK:
     :git: https://github.com/navisens/iOS-SDK.git
@@ -48,4 +56,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: eddd4feddfa653c7c876a97349c52b8bb2282792
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.2
