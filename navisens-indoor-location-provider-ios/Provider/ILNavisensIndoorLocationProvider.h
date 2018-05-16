@@ -10,7 +10,7 @@
 
 @property (nonatomic) ILIndoorLocationProvider* sourceProvider;
 @property (nonatomic) NSString* navisensKey;
-@property (nonatomic, weak) ILIndoorLocation* indoorLocation;
+@property (nonatomic) ILIndoorLocation* indoorLocation;
 
 - (instancetype) initWith:(ILIndoorLocationProvider*) sourceProvider navisensKey:(NSString*) navisensKey;
 

@@ -2,7 +2,7 @@
 #import "ILMotionDnaDelegate.h"
 #import "ILMotionDna.h"
 
-@interface ILNavisensIndoorLocationProvider() <ILMotionDnaDelegate, ILIndoorLocationProviderDelegate, CLLocationManagerDelegate>
+@interface ILNavisensIndoorLocationProvider() <ILMotionDnaDelegate, ILIndoorLocationProviderDelegate>
 
 @end
 
