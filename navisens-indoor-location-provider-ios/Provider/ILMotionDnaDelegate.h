@@ -5,11 +5,7 @@
 
 - (void) receiveMotionDna:(MotionDna*)motionDna;
 
-- (void) reportSensorTiming:(double)dt Msg:(NSString *)msg;
-
 - (void) reportError:(ErrorCode)error WithMessage:(NSString *)message;
-
-- (void) receiveNetworkData:(MotionDna *)motionDna;
 
 @end
 

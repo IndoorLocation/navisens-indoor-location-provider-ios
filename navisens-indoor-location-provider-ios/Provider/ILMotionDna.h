@@ -1,7 +1,5 @@
 #import <Foundation/Foundation.h>
 #import <MotionDnaSDK/MotionDnaSDK.h>
-#import <MotionDnaSDK/MotionDna.h>
-#import <IndoorLocation/IndoorLocation.h>
 
 @protocol ILMotionDnaDelegate;
 

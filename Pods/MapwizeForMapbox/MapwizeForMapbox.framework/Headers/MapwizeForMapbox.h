@@ -1,8 +1,13 @@
 #import <UIKit/UIKit.h>
 
-FOUNDATION_EXPORT double mapwize_ios_nativeVersionNumber;
+//! Project version number for MapwizeForMapbox.
+FOUNDATION_EXPORT double MapwizeForMapboxVersionNumber;
 
-FOUNDATION_EXPORT const unsigned char mapwize_ios_nativeVersionString[];
+//! Project version string for MapwizeForMapbox.
+FOUNDATION_EXPORT const unsigned char MapwizeForMapboxVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <MapwizeForMapbox/PublicHeader.h>
+
 
 #import "MapwizePlugin.h"
 #import "MWZApi.h"

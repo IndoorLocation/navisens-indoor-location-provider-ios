@@ -1,15 +1,9 @@
 #import <Foundation/Foundation.h>
-#import <MotionDnaSDK/MotionDna.h>
 
 #import "ILMotionDna.h"
-#import "ILNavisensIndoorLocationProvider.h"
+#import "ILMotionDnaDelegate.h"
 
 @implementation ILMotionDna
-
-- (id) init {
-    self = [super init];
-    return self;
-}
 
 - (void) receiveMotionDna:(MotionDna*)motionDna {
     if (_delegate) {
@@ -17,11 +11,8 @@
     }
 }
 
-- (void) reportSensorTiming:(double)dt Msg:(NSString *)msg
-{
-    if (_delegate) {
-        [_delegate reportSensorTiming:dt Msg:msg];
-    }
+- (void) reportSensorTiming:(double)dt Msg:(NSString *)msg {
+    
 }
 
 - (void) reportError:(ErrorCode)error WithMessage:(NSString *)message {
@@ -31,9 +22,7 @@
 }
 
 - (void) receiveNetworkData:(MotionDna *)motionDna {
-    if (_delegate) {
-        [_delegate receiveMotionDna:motionDna];
-    }
+    
 }
 
 @end

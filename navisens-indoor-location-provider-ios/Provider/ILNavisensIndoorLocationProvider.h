@@ -1,21 +1,18 @@
 #import <Foundation/Foundation.h>
 #import <MotionDnaSDK/MotionDnaSDK.h>
 #import <IndoorLocation/IndoorLocation.h>
-#import <MapwizeForMapbox/MapwizeForMapbox.h>
 
+@class ILMotionDna;
+@protocol ILMotionDnaDelegate;
+@protocol ILIndoorLocationProviderDelegate;
 
-#import "ILMotionDnaDelegate.h"
-#import "ILMotionDna.h"
+@interface ILNavisensIndoorLocationProvider: ILIndoorLocationProvider
 
-@class ILIndoorLocationProviderDelegate;
-
-@interface ILNavisensIndoorLocationProvider: ILIndoorLocationProvider <ILMotionDnaDelegate, ILIndoorLocationProviderDelegate, CLLocationManagerDelegate>
-
-@property (nonatomic, strong) ILIndoorLocationProvider* sourceProvider;
-
+@property (nonatomic) ILIndoorLocationProvider* sourceProvider;
+@property (nonatomic) NSString* navisensKey;
 @property (nonatomic, weak) ILIndoorLocation* indoorLocation;
 
-- (id) initWithSourceProvider:(ILIndoorLocationProvider*) sourceProvider navisensDevKey:(NSString*) key;
+- (instancetype) initWith:(ILIndoorLocationProvider*) sourceProvider navisensKey:(NSString*) navisensKey;
 
 
 @end

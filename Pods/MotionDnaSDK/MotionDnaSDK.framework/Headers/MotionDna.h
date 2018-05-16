@@ -17,7 +17,8 @@ enum ErrorCode
     SENSOR_TIMING = 0,
     AUTHENTICATION_FAILED = 1,
     SENSOR_MISSING = 2,
-    SDK_EXPIRED = 3
+    SDK_EXPIRED = 3,
+    WRONG_FLOOR_INPUT = 4
   };
 typedef enum ErrorCode ErrorCode;
 
@@ -190,6 +191,7 @@ typedef enum MapObjectType MapObjectType;
   CalibrationStatus calibrationStatus_;
   NSString * ID_;
   NSString * deviceName_;
+  NSString * motionName_;
   MotionStatistics motionStatistics_;
   MotionStatistics polygonMotionStatistics_;
   OrientationQuaternion quaternion_;
@@ -202,6 +204,7 @@ typedef enum MapObjectType MapObjectType;
 -(CalibrationStatus)getCalibrationStatus;
 -(NSString*)getID;
 -(NSString*)getDeviceName;
+-(NSString*)getMotionName;
 -(MotionStatistics)getMotionStatistics;
 -(MotionStatistics)getPolygonMotionStatistics;
 -(OrientationQuaternion)getQuaternion;

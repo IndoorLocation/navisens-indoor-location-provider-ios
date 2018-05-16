@@ -21,10 +21,9 @@
 }
 
 - (void) mapwizePluginDidLoad:(MapwizePlugin *)mapwizePlugin {
-    NSLog(@"mapwizePluginDidLoad");
     self.sourceProvider = [[ILManualIndoorLocationProvider alloc] init];
     
-    self.provider = [[ILNavisensIndoorLocationProvider alloc] initWithSourceProvider:self.sourceProvider navisensDevKey:@"YOUR NAVISENS DEV KEY"];
+    self.provider = [[ILNavisensIndoorLocationProvider alloc] initWith:self.sourceProvider navisensKey:@"YOUR NAVISENS DEV KEY"];
     
     [self.mapwizePlugin setIndoorLocationProvider:self.provider];
     

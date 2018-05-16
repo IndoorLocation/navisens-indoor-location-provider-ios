@@ -54,6 +54,7 @@
 - (NSString*) subtitleForLanguage:(NSString*) language;
 
 - (BOOL) getMarkerDisplay;
+- (BOOL) getShapeDisplay;
 - (NSString*) getFillColor;
 - (NSString*) getFillOpacity;
 - (NSString*) getStrokeColor;
