@@ -28,9 +28,9 @@
     if (!started) {
         motionDnaSDK = [[ILMotionDna alloc] init];
         motionDnaSDK.delegate = self;
+        [motionDnaSDK runMotionDna:_navisensKey];
         [motionDnaSDK setCallbackUpdateRateInMs:1000];
         [motionDnaSDK setPowerMode:PERFORMANCE];
-        [motionDnaSDK runMotionDna:_navisensKey];
         
         if (self.sourceProvider) {
             [self.sourceProvider addDelegate:self];
