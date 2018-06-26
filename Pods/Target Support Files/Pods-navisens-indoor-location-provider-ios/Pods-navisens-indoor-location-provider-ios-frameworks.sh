@@ -147,6 +147,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/IndoorLocation/IndoorLocation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ManualIndoorLocationProvider/ManualIndoorLocationProvider.framework"
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
+  install_dsym "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM"
   install_framework "${PODS_ROOT}/MapwizeForMapbox/MapwizeForMapbox.framework"
   install_framework "${PODS_ROOT}/MotionDnaSDK/MotionDnaSDK.framework"
 fi
@@ -155,6 +156,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/IndoorLocation/IndoorLocation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ManualIndoorLocationProvider/ManualIndoorLocationProvider.framework"
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
+  install_dsym "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM"
   install_framework "${PODS_ROOT}/MapwizeForMapbox/MapwizeForMapbox.framework"
   install_framework "${PODS_ROOT}/MotionDnaSDK/MotionDnaSDK.framework"
 fi

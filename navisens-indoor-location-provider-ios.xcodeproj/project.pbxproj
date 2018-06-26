@@ -212,6 +212,7 @@
 				"${BUILT_PRODUCTS_DIR}/IndoorLocation/IndoorLocation.framework",
 				"${BUILT_PRODUCTS_DIR}/ManualIndoorLocationProvider/ManualIndoorLocationProvider.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
 				"${PODS_ROOT}/MapwizeForMapbox/MapwizeForMapbox.framework",
 				"${PODS_ROOT}/MotionDnaSDK/MotionDnaSDK.framework",
 			);
@@ -221,6 +222,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IndoorLocation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ManualIndoorLocationProvider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapwizeForMapbox.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionDnaSDK.framework",
 			);
@@ -386,8 +388,11 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "navisens-indoor-location-provider-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.indoorlocation.navisens-indoor-location-provider-ios";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.indoorlocation.navisens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -403,8 +408,11 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "navisens-indoor-location-provider-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.indoorlocation.navisens-indoor-location-provider-ios";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.indoorlocation.navisens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

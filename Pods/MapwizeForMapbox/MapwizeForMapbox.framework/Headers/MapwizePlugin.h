@@ -3,6 +3,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import <IndoorLocation/IndoorLocation.h>
 #import "MWZFollowUserModeEnum.h"
+#import "MWZTypeDefinition.h"
 
 @protocol MWZMapwizePluginDelegate;
 @protocol MWZVenueStateDelegate;
@@ -28,7 +29,6 @@
 @property (nonatomic, weak) id<MWZMapwizePluginDelegate> delegate;
 
 @property (nonatomic) MWZFollowUserButton* followButton;
-
 
 @property (nonatomic) UIView* bottomLayoutView;
 @property (nonatomic) UIView* topLayoutView;
@@ -79,6 +79,9 @@
 - (void) setDirection:(MWZDirection *)direction  options:(MWZDirectionOptions*) options;
 - (void) setDirection:(MWZDirection*) direction;
 - (MWZDirection*) getDirection;
+
+- (void) startNavigation:(MWZDirection*) direction options:(MWZDirectionOptions*) options navigationUpdateHandler:(NavigationInfoDidUpdate) navigationUpdateHandler;
+- (void) stopNavigation;
 
 - (void) setFollowUserMode:(FollowUserMode)followUserMode;
 - (FollowUserMode) getFollowUserMode;

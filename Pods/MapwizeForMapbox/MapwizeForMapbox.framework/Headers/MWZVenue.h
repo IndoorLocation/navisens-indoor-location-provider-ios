@@ -26,9 +26,13 @@
 @property(nonatomic, readonly) NSDate* updated;
 @property(nonatomic, readonly) NSDictionary* data;
 @property(nonatomic, readonly) NSDictionary* indoorLocationProviders;
+@property(nonatomic, readonly) NSNumber* defaultCenterLatitude;
+@property(nonatomic, readonly) NSNumber* defaultCenterLongitude;
+@property(nonatomic, readonly) NSNumber* defaultZoom;
 
 - (instancetype)initWithIdentifier:(NSString*) identifer name:(NSString*) name alias:(NSString*) alias
-                              icon:(NSString*) icon marker:(MWZLatLngFloor*) marker defaultLanguage:(NSString*) defaultLanguage supportedLanguages:(NSArray<NSString*>*) supportedLanguages geometry:(NSDictionary*) geometry universes:(NSArray<MWZUniverse*>*) universes translations:(NSArray<MWZTranslation*>*) translations isPublished:(BOOL) isPublished areQrcodesDeployed:(BOOL) areQrcodesDeployed areIbeaconsDeployed:(BOOL) areIbeaconsDeployed updated:(NSDate*) updated bounds:(MGLCoordinateBounds) bounds data:(NSDictionary*) data indoorLocationProviders:(NSDictionary*) indoorLocationProviders;
+                              icon:(NSString*) icon marker:(MWZLatLngFloor*) marker defaultLanguage:(NSString*) defaultLanguage supportedLanguages:(NSArray<NSString*>*) supportedLanguages geometry:(NSDictionary*) geometry universes:(NSArray<MWZUniverse*>*) universes translations:(NSArray<MWZTranslation*>*) translations isPublished:(BOOL) isPublished areQrcodesDeployed:(BOOL) areQrcodesDeployed areIbeaconsDeployed:(BOOL) areIbeaconsDeployed updated:(NSDate*) updated bounds:(MGLCoordinateBounds) bounds data:(NSDictionary*) data indoorLocationProviders:(NSDictionary*) indoorLocationProviders
+             defaultCenterLatitude:(NSNumber*) defaultCenterLatitude defaultCenterLongitude:(NSNumber*) defaultCenterLongitude defaultZoom:(NSNumber*) defaultZoom;
 
 - (MWZUniverse*) defaultUniverse;
 - (NSString*) defaultLanguage;

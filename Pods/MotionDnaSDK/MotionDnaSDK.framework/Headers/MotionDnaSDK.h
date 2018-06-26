@@ -54,6 +54,8 @@ FOUNDATION_EXPORT const unsigned char MotionDnaApplicationVersionString[];
 -(void)setCallbackUpdateRateInMs:(double)rate;
 -(void)setNetworkUpdateRateInMs:(double)rate;
 -(void)setBinaryFileLoggingEnabled:(BOOL)state;
+-(void)setBackpropagationEnabled:(BOOL)state;
+-(void)setBackpropagationBufferSize:(size_t)bufferSize;
 -(void)setExternalPositioningState:(ExternalPositioningState)state;
 -(void)startUDPRoom:(NSString*)room AtHost:(NSString*)host AndPort:(NSString*)port;
 -(void)startUDPHost:(NSString*)host AndPort:(NSString*)port;
@@ -78,5 +80,6 @@ FOUNDATION_EXPORT const unsigned char MotionDnaApplicationVersionString[];
 -(void)resetLocalEstimation;
 -(void)enableBackgroundSensors;
 -(void)addFloorNumber:(int)floor AndHeight:(double)height;
+-(void)setMotionOverrideString:(NSString*)overrideString;
 
 @end

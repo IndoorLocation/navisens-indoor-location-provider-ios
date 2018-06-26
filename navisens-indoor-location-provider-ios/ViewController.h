@@ -4,13 +4,12 @@
 #import <ManualIndoorLocationProvider/ILManualIndoorLocationProvider.h>
 #import "ILNavisensIndoorLocationProvider.h"
 
-@interface ViewController : UIViewController <MWZMapwizePluginDelegate>
+@interface ViewController : UIViewController <MWZMapwizePluginDelegate, ILMotionDnaLocationDelegate> //ILMotionDnaLocationDelegate to retrieve each location updates
 
 @property (weak, nonatomic) IBOutlet MGLMapView *mglMapView;
 @property (nonatomic, strong) MapwizePlugin* mapwizePlugin;
 @property (nonatomic, strong) ILManualIndoorLocationProvider* sourceProvider;
 @property (nonatomic, strong) ILNavisensIndoorLocationProvider* provider;
-
 
 @end
 

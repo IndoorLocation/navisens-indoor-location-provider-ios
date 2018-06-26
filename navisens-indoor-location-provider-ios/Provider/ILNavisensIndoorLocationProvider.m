@@ -1,6 +1,5 @@
 #import "ILNavisensIndoorLocationProvider.h"
-#import "ILMotionDnaDelegate.h"
-#import "ILMotionDna.h"
+
 
 @interface ILNavisensIndoorLocationProvider() <ILMotionDnaDelegate, ILIndoorLocationProviderDelegate>
 
@@ -8,8 +7,7 @@
 
 @implementation ILNavisensIndoorLocationProvider {
     BOOL started;
-    ILMotionDna* motionDnaSDK;
-    NSNumber* currentFloor;
+    int currentFloor;
 }
 
 
@@ -26,11 +24,26 @@
 
 - (void) start {
     if (!started) {
-        motionDnaSDK = [[ILMotionDna alloc] init];
-        motionDnaSDK.delegate = self;
-        [motionDnaSDK runMotionDna:_navisensKey];
-        [motionDnaSDK setCallbackUpdateRateInMs:1000];
-        [motionDnaSDK setPowerMode:PERFORMANCE];
+        NSLog(@"startNavisens");
+        self.motionDnaSDK = [[ILMotionDna alloc] init];
+        self.motionDnaSDK.delegate = self;
+        [self.motionDnaSDK runMotionDna:_navisensKey];
+        [self.motionDnaSDK setCallbackUpdateRateInMs:1000];
+        [self.motionDnaSDK setPowerMode:PERFORMANCE];
+        
+        if (self.sourceProvider) {
+            [self.sourceProvider addDelegate:self];
+        }
+        
+        started = YES;
+    }
+}
+
+- (void) startWith:(ILMotionDna*) motionDnaSdk {
+    if (!started) {
+        self.motionDnaSDK = motionDnaSdk;
+        self.motionDnaSDK.delegate = self;
+        [self.motionDnaSDK runMotionDna:_navisensKey];
         
         if (self.sourceProvider) {
             [self.sourceProvider addDelegate:self];
@@ -42,8 +55,8 @@
 
 - (void) stop {
     if (started) {
-        [motionDnaSDK stop];
-        motionDnaSDK = nil;
+        [self.motionDnaSDK stop];
+        self.motionDnaSDK = nil;
         started = NO;
     }
 }
@@ -63,9 +76,10 @@
 }
 
 - (void)provider:(ILIndoorLocationProvider *)provider didUpdateLocation:(ILIndoorLocation *)location {
-    currentFloor = location.floor;
-    [motionDnaSDK setLocationLatitude:location.latitude Longitude:location.longitude];
-    [motionDnaSDK setHeadingMagInDegrees];
+    currentFloor = location.floor.intValue;
+    [self.motionDnaSDK setFloorNumber:location.floor.intValue];
+    [self.motionDnaSDK setLocationLatitude:location.latitude Longitude:location.longitude];
+    [self.motionDnaSDK setHeadingMagInDegrees];
     [self dispatchDidUpdateLocation:location];
 }
 
@@ -86,8 +100,18 @@
     if (location.globalLocation.latitude == 0 && location.globalLocation.longitude == 0) {
         return;
     }
+
+    self.location = &(location);
+    [_delegate didChangeLocation:&(location)];
+
+    NSLog(@"floor: %d", location.floor);
     
-    ILIndoorLocation *indoorLocation = [[ILIndoorLocation alloc] initWithProvider:self latitude:location.globalLocation.latitude longitude:location.globalLocation.longitude floor:self->currentFloor];
+    if (location.floor != currentFloor) {
+        currentFloor = location.floor;
+        [_indoorLocation setFloor:[NSNumber numberWithInteger:currentFloor]];
+    }
+    
+    ILIndoorLocation *indoorLocation = [[ILIndoorLocation alloc] initWithProvider:self latitude:location.globalLocation.latitude longitude:location.globalLocation.longitude floor:[NSNumber numberWithInteger:location.floor]];
     indoorLocation.timestamp = [NSDate date];
     
     dispatch_async(dispatch_get_main_queue(), ^{
@@ -97,6 +121,14 @@
 
 - (void) reportError:(ErrorCode)error WithMessage:(NSString *)message {
     [self dispatchDidFailWithError:[NSError errorWithDomain:message code:0 userInfo:nil]];
+}
+
+- (ILMotionDna*) retrieveMotionDnaSdk {
+    return _motionDnaSDK;
+}
+
+- (Location*) getLocation {
+    return self.location;
 }
 
 @end

@@ -10,6 +10,7 @@ FOUNDATION_EXPORT const unsigned char MapwizeForMapboxVersionString[];
 
 
 #import "MapwizePlugin.h"
+#import "MWZTypeDefinition.h"
 #import "MWZApi.h"
 #import "MWZApiFilter.h"
 #import "MWZDistanceResponse.h"

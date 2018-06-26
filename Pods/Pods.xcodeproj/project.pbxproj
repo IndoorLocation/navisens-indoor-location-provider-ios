@@ -7,65 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		013131FB1B442D1F827250F58D5DB828 /* ILManualIndoorLocationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BA2622842F7856288D13E1788D5344 /* ILManualIndoorLocationProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0176D10EAAD39D90ACDD5B3A2696B6BF /* ManualIndoorLocationProvider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC83B7059F7C628CED12FD0110815A0 /* ManualIndoorLocationProvider-dummy.m */; };
-		04F3BBE71B24770E40CC66A993AD85D1 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 78421F434B16057A40622A7F5DD1E9AB /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		013131FB1B442D1F827250F58D5DB828 /* ILManualIndoorLocationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 413502CC6AABB8D754258D85618B7727 /* ILManualIndoorLocationProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0176D10EAAD39D90ACDD5B3A2696B6BF /* ManualIndoorLocationProvider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D863E8217EB349590C74695BAD8552D /* ManualIndoorLocationProvider-dummy.m */; };
+		04F3BBE71B24770E40CC66A993AD85D1 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 36FD377A9394873E81050836AD7662D0 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09EC74E4AFC1D5951D1F80094D06969A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4538BAC2E518400ABC33F89F92D22730 /* Foundation.framework */; };
-		0ACBBA158F4635FAE16AB5456ABADCA4 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D7551559D9D8791AF32A386191A921 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15F6265FCE0955CDB4967F7306407D67 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3063B8FB08148CD210AC570875592D /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F16DC56C95A7BFC6257B348A90AF85A /* IndoorLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77191F089DE5B5F9CAA120E86CAFD439 /* IndoorLocation-dummy.m */; };
-		3016BDB0FBA5FE946285E304DB3EFD9F /* IndoorLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = C4BFB9B0C57A5156B35B7121C4A65A1D /* IndoorLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		308BB58B6CB57799079E5E0084A843E5 /* ILIndoorLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6D8823851D40132060F2AE214A787C /* ILIndoorLocationProvider.m */; };
-		3345805C0D8E8D0726F7E5981DA61A5F /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D45E58C30C8E81F7AD9F86E297921BD6 /* UIWebView+AFNetworking.m */; };
-		3C9E113B7712442B4BCB59AB7EEC2085 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D045C8DE23E1D11AAC02778D2D6AE /* AFURLResponseSerialization.m */; };
-		3DDB894364CEC991E61B04E9036D6D54 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 078241421C9A8B7E50FB5E540D74E8AB /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AA21F40697CB42D7D219ACEDE4FBFCF /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F3518691D4C96C980AC65B6963FD81 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AA3A9FC9AAD94C226CA975946C9395B /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C833B3FDF26C1996676C0B863DEC07A3 /* UIRefreshControl+AFNetworking.m */; };
-		4C321BA8844AA4C44D4416CC6948DF2B /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B779D4F13616E90274DA1EEF2385EE4C /* AFNetworking-dummy.m */; };
-		4C5DA96F7CAC26975EEEBD7450FF214D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F38706A70EDFE161C3ADC73E277F69 /* AFURLSessionManager.m */; };
-		5BFE1CC79F693B6218B419AE50B2070E /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0865D00B1BDBB80BE5017E3B600CCD17 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ACBBA158F4635FAE16AB5456ABADCA4 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2943F0AC9E119F78CA509110092D35A1 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15F6265FCE0955CDB4967F7306407D67 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0ADF0284D48C11833F30175A9744F6 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F16DC56C95A7BFC6257B348A90AF85A /* IndoorLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BACEA5B8BFC5CC69B405D422D29F53 /* IndoorLocation-dummy.m */; };
+		3016BDB0FBA5FE946285E304DB3EFD9F /* IndoorLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 714E010240AE776EC6C0C515F6CDB401 /* IndoorLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		308BB58B6CB57799079E5E0084A843E5 /* ILIndoorLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3474C28C594603FCDD5D464D74A041 /* ILIndoorLocationProvider.m */; };
+		3345805C0D8E8D0726F7E5981DA61A5F /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ABE0DA77E3AE6318FB1AE6D996F43F /* UIWebView+AFNetworking.m */; };
+		3C9E113B7712442B4BCB59AB7EEC2085 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE53326AECFC811FD36749EBA935C31 /* AFURLResponseSerialization.m */; };
+		3DDB894364CEC991E61B04E9036D6D54 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FFCBC6E5924AF8F39710EB26E01AD8E /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA21F40697CB42D7D219ACEDE4FBFCF /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E585857314F6B95EEEDA3BD0A79F82 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA3A9FC9AAD94C226CA975946C9395B /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C438805BEAE9605F27BA23992A7772 /* UIRefreshControl+AFNetworking.m */; };
+		4C321BA8844AA4C44D4416CC6948DF2B /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D383FB83F9F8D45F0E9F31AAE52332 /* AFNetworking-dummy.m */; };
+		4C5DA96F7CAC26975EEEBD7450FF214D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B714A42AE178AF6542DA8003326275C5 /* AFURLSessionManager.m */; };
+		5BFE1CC79F693B6218B419AE50B2070E /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDC3DB8A4D6E630FBA9190A02F68749 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D99318F3F059D7D0618693492285DAB /* Pods-navisens-indoor-location-provider-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D676526169211EAB5388C507C1AE0376 /* Pods-navisens-indoor-location-provider-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DA7492494B64BA59678AE4004275986 /* ILManualIndoorLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2204A4ABAD1371CC4834621515D28AB9 /* ILManualIndoorLocationProvider.m */; };
-		63BA6FBA10304F4828DE97C0FA63ED9D /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F5C4546601BC6C3F72DD3399BD73C8 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DA7492494B64BA59678AE4004275986 /* ILManualIndoorLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9892FDEB222E1ED74B470D4D802A0B2D /* ILManualIndoorLocationProvider.m */; };
+		63BA6FBA10304F4828DE97C0FA63ED9D /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE40903396BF521741E78F12BA6DDE0 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6478B0091202F9429D2A61E30BEDA571 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800CE301D376C58688BB3E337C44FF60 /* Security.framework */; };
-		6595C6295B9EBBF40751A376239681FD /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B0018C76D45E2BEA38712B6E60E7B20F /* UIProgressView+AFNetworking.m */; };
-		6AB8F78680B3470391219F11D51A1DE7 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F43F7A28BB8AA7D218DECD139917C7 /* UIImageView+AFNetworking.m */; };
-		7099E4035C06D3116DA2586EFE563C0B /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F251F350BF889734BBEDA8E62D91D39 /* AFAutoPurgingImageCache.m */; };
+		6595C6295B9EBBF40751A376239681FD /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274C2F74EF103E6F95CB53E50DFDA8E /* UIProgressView+AFNetworking.m */; };
+		6AB8F78680B3470391219F11D51A1DE7 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4DD0D8A408EE3F3BEC15A3C13428A1 /* UIImageView+AFNetworking.m */; };
+		7099E4035C06D3116DA2586EFE563C0B /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 21030161FD2C15139F704D8B4135276A /* AFAutoPurgingImageCache.m */; };
 		77543A9D68AC673CC9508BD1D54B31E7 /* Pods-navisens-indoor-location-provider-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C918A2A41E9F82873553F63D9EC1E /* Pods-navisens-indoor-location-provider-ios-dummy.m */; };
 		78AC6714960C42CC866222B6D956EDF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835E483C6642F554A36DC92A6964B724 /* CoreGraphics.framework */; };
 		81ABD96C8FA6FF28CFB2A3A78A6EA560 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B4B4FE3C69338434CCD5493D84E939 /* SystemConfiguration.framework */; };
-		830EAAA5B38F799F9FBA89166D7199D0 /* ILIndoorLocationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE77348C08032FA02CC39635A62611D /* ILIndoorLocationProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		836966902BD03C2C4CFA74484EFC9D66 /* ILIndoorLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB51D1219ABB94F790E4CBF96508AE /* ILIndoorLocation.m */; };
-		86EA527BA1862E06A8E19E0960C66E7E /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF61D3926054A23C8A6E623FA6899EA /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		830EAAA5B38F799F9FBA89166D7199D0 /* ILIndoorLocationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 34065D576AB997FACE25A9504FC3BBC3 /* ILIndoorLocationProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		836966902BD03C2C4CFA74484EFC9D66 /* ILIndoorLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F99B66151D58959AF5FE3B03684D4D /* ILIndoorLocation.m */; };
+		86EA527BA1862E06A8E19E0960C66E7E /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E874C5A2F5BD13F194B338C36BFFBAA /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89637BFFD180A1E05F04DAF0CF4A6540 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEF7FF930A21036053FFCDF4CDDE121 /* MobileCoreServices.framework */; };
-		8A1EB96C607F92E8AA20676F9A4BC7D9 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 38156527CF707D064252A05BD3666DD2 /* UIButton+AFNetworking.m */; };
-		8D9636C74777C684BDF312EE66F8A585 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D01F747634EF50CAF5ECC36F3748805 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		939EF882233B22D0321A70F6DADED11F /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED42CD75960C02D2A6A4E86CD45962C6 /* AFHTTPSessionManager.m */; };
+		8A1EB96C607F92E8AA20676F9A4BC7D9 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D7EC005A13006817D2E2332FE3EF8B /* UIButton+AFNetworking.m */; };
+		8D9636C74777C684BDF312EE66F8A585 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A28011B79E3CD028B0B5B9B36076CDAF /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		939EF882233B22D0321A70F6DADED11F /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A34B0D88320874C3B41D4A53E8E76B1 /* AFHTTPSessionManager.m */; };
 		96F661875AB41679D7BF7A4509C7AB75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4538BAC2E518400ABC33F89F92D22730 /* Foundation.framework */; };
-		9898B13B5771AC304E096319E72F8098 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AD96FCB2303F95642783B83B9134944C /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC1064802A4D107353A87F2B4A963B0 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 49074718E94DFC912ADCE767BBE4E5B5 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9898B13B5771AC304E096319E72F8098 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 215C86A4E9B05AFA580DEE9CC892F2DF /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC1064802A4D107353A87F2B4A963B0 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4A0E56CEC21B55E7C68A648100331E /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CF36236506CB01B291C35FEE5FA5215 /* IndoorLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C87446B666B4B86B80349B97CC5768F /* IndoorLocation.framework */; };
-		9D8292657CFDB8B01F48898391E3FBEA /* ILIndoorLocationProviderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FA462D22461E015285AB72413FC49B /* ILIndoorLocationProviderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DFFAF37A27621F54B4B5140E253E11C /* ManualIndoorLocationProvider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E16CD49E09C8AD85A7ACD2419A332B10 /* ManualIndoorLocationProvider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A12A3BC640B690479F345A49C6C48209 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A28F22368A3A1E4111E2D8CE261C1C /* AFNetworkReachabilityManager.m */; };
-		A5B069CA1170E03891AC5648DE5CF87D /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8613DD05E8B2B73FC71A1302FDDFE835 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD868043328B2125E27A5DC14D11958F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 72608E453A0FF9A7EA7BB986E0282CBD /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADD011E9ABBD96D70AAA32A4B9ACBD02 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 604121C6850A4182290BFE5855AC5A57 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B086C8017A694E281B3F30DCCE8FA588 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 634E41D92239F88446E4EA37E0E8A664 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B08CF320AD2809979826CDF416F80F70 /* ILIndoorLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = A401797EEA0BC011BEB16942F9ABB8FF /* ILIndoorLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B46FE8C00C2CDDE0B4790FFD3DC961A4 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3732A80CB72E452B5602A7B54712C5B0 /* AFImageDownloader.m */; };
+		9D8292657CFDB8B01F48898391E3FBEA /* ILIndoorLocationProviderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 173253C7B76A521A5F9687588A9BC280 /* ILIndoorLocationProviderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DFFAF37A27621F54B4B5140E253E11C /* ManualIndoorLocationProvider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C41EE15165D1C96082CDE0EDD9D02C /* ManualIndoorLocationProvider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A12A3BC640B690479F345A49C6C48209 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 832DB6A5F19E3EC8FCFC524082A84F7F /* AFNetworkReachabilityManager.m */; };
+		A5B069CA1170E03891AC5648DE5CF87D /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CEF90BBB7F9AA501672E4297DDB5DB /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD868043328B2125E27A5DC14D11958F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFB796A5EF1EBE9D2F60C54802F78E4 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADD011E9ABBD96D70AAA32A4B9ACBD02 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDC008CFE1AFC8F4DB640095660ADFF /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B086C8017A694E281B3F30DCCE8FA588 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB2E3003EC47964CEF40CDDCB7295C /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B08CF320AD2809979826CDF416F80F70 /* ILIndoorLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C04A3F1D3359C537DCD31753A88CB0A /* ILIndoorLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B46FE8C00C2CDDE0B4790FFD3DC961A4 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A4D18F7A072392CCEE5279B5982 /* AFImageDownloader.m */; };
 		B65A6974D6877E45BC2E78EEC5F477E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4538BAC2E518400ABC33F89F92D22730 /* Foundation.framework */; };
-		BE2ED6DD8E590A0B3D6918EDD12A344E /* IndoorLocation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F57333EE86F219D3C207B78E9BF7C4F5 /* IndoorLocation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE2ED6DD8E590A0B3D6918EDD12A344E /* IndoorLocation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 175AC9F534EC716E9648C177A237B2B6 /* IndoorLocation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE97FA826D85D74E3CB1C8B54365DF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4538BAC2E518400ABC33F89F92D22730 /* Foundation.framework */; };
-		C12BAA822391D670C53FF0C2299654AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6343430850E0B0FCC3D39A2876B0611A /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C257BE809D4C4357A8EB7118960E3143 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E2F44ACD78608C92982E0F6CD8032 /* UIActivityIndicatorView+AFNetworking.m */; };
-		CA0D37AE5433954573D3E37771CDDBFA /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FACB9CE71013EADF2E5081B6C6D1C4C6 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5CD5C797956697DDCC98A3EAC7E99E3 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3788A5B89AB0232E195F9EDF97C2D59C /* AFURLRequestSerialization.m */; };
-		EA23726556D213DB485BD1791C7164CF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F527C8D4251B42FE01BB6B045E489B20 /* AFNetworkActivityIndicatorManager.m */; };
-		F1199E40BF416FC1ACA2DDCD7B2E23A1 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDD268C346F924B4B7C3D8A8E93AF7A /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F26CD9A1DF452688BF3C98BBA9090F92 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A472D941D7FB4AFE4DE8678E2AEB67DD /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F30950E63F3D8D6C07FFB50C5971116E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B96ED9CB16110E1CAA29C84B1AE8B87F /* AFSecurityPolicy.m */; };
-		F54879EEAE223E90AC9674197E6B1ADE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D036D2BAC5BACC5FBEF7DDE94E4EB0F /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C12BAA822391D670C53FF0C2299654AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E53959BB1D02B9339667CA65D61A35DD /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C257BE809D4C4357A8EB7118960E3143 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2735F59423313ED74B62F8C9C8F49B61 /* UIActivityIndicatorView+AFNetworking.m */; };
+		CA0D37AE5433954573D3E37771CDDBFA /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 649859A80B0E2FCFDEA382C64BB18824 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5CD5C797956697DDCC98A3EAC7E99E3 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BFBD65073E3732ECA54F4B5211DD42 /* AFURLRequestSerialization.m */; };
+		EA23726556D213DB485BD1791C7164CF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA783464A62BAA340CEFC8E2E893F74 /* AFNetworkActivityIndicatorManager.m */; };
+		F1199E40BF416FC1ACA2DDCD7B2E23A1 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CC3E6C557CAC0E73CE555954BDD8FA /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F26CD9A1DF452688BF3C98BBA9090F92 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CACC368C8745AD0D977D08686DE2489B /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F30950E63F3D8D6C07FFB50C5971116E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288A44004DAF6F111779CFEC1C1F57E /* AFSecurityPolicy.m */; };
+		F54879EEAE223E90AC9674197E6B1ADE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = A179E612718444359714EE09706E831B /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,120 +100,121 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04C6BC361CC91430ACF872837D1507E1 /* MWZFollowUserModeEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZFollowUserModeEnum.h; path = MapwizeForMapbox.framework/Headers/MWZFollowUserModeEnum.h; sourceTree = "<group>"; };
-		078241421C9A8B7E50FB5E540D74E8AB /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		0865D00B1BDBB80BE5017E3B600CCD17 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		0A5D1D5E85C026FF7BC61A344C68F291 /* MWZRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZRoute.h; path = MapwizeForMapbox.framework/Headers/MWZRoute.h; sourceTree = "<group>"; };
-		0C59A26A458D8BC37368BBDEBAAE4FE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E585857314F6B95EEEDA3BD0A79F82 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		020E9A8CF0A040673C487A12032DCC0F /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = dynamic/Mapbox.framework; sourceTree = "<group>"; };
+		0CE40903396BF521741E78F12BA6DDE0 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		116AA9AA2C7517CB1DDE7D0719DDAB33 /* Pods-navisens-indoor-location-provider-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-navisens-indoor-location-provider-ios.release.xcconfig"; sourceTree = "<group>"; };
-		1692F74A1DA55CCA9626A769863C5084 /* MWZDirectionOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZDirectionOptions.h; path = MapwizeForMapbox.framework/Headers/MWZDirectionOptions.h; sourceTree = "<group>"; };
-		17F43F7A28BB8AA7D218DECD139917C7 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		120BCA0792E6F5B3E57C215B33CF34C7 /* MWZParsedUrlObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZParsedUrlObject.h; path = MapwizeForMapbox.framework/Headers/MWZParsedUrlObject.h; sourceTree = "<group>"; };
+		13E75A4D18F7A072392CCEE5279B5982 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		14D7EC005A13006817D2E2332FE3EF8B /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		173253C7B76A521A5F9687588A9BC280 /* ILIndoorLocationProviderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILIndoorLocationProviderDelegate.h; path = "indoor-location-ios/ILIndoorLocation/ILIndoorLocationProviderDelegate.h"; sourceTree = "<group>"; };
+		175AC9F534EC716E9648C177A237B2B6 /* IndoorLocation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IndoorLocation-umbrella.h"; sourceTree = "<group>"; };
 		18C5C6C1D3C912881FED45E3BC798FA5 /* Pods-navisens-indoor-location-provider-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-navisens-indoor-location-provider-ios.modulemap"; sourceTree = "<group>"; };
-		1D01F747634EF50CAF5ECC36F3748805 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		1C6ABE2A19E5C8EE51330D9B847D0203 /* MWZUISettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZUISettings.h; path = MapwizeForMapbox.framework/Headers/MWZUISettings.h; sourceTree = "<group>"; };
 		1DEF7FF930A21036053FFCDF4CDDE121 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		1F1FAE5B5DAD243C4EF29176762698AC /* MWZDistanceResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZDistanceResponse.h; path = MapwizeForMapbox.framework/Headers/MWZDistanceResponse.h; sourceTree = "<group>"; };
-		20B91553658650E46C64EF081A22D247 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20BA2622842F7856288D13E1788D5344 /* ILManualIndoorLocationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILManualIndoorLocationProvider.h; path = "manual-indoorlocation-provider-ios/Provider/ILManualIndoorLocationProvider.h"; sourceTree = "<group>"; };
-		2204A4ABAD1371CC4834621515D28AB9 /* ILManualIndoorLocationProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILManualIndoorLocationProvider.m; path = "manual-indoorlocation-provider-ios/Provider/ILManualIndoorLocationProvider.m"; sourceTree = "<group>"; };
+		1E695E1CFDD5267B170A249D2BC0A7C3 /* MWZDirectionWrapperAndDistance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZDirectionWrapperAndDistance.h; path = MapwizeForMapbox.framework/Headers/MWZDirectionWrapperAndDistance.h; sourceTree = "<group>"; };
+		21030161FD2C15139F704D8B4135276A /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		215C86A4E9B05AFA580DEE9CC892F2DF /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		231C7A8C736C4BC37C652A7664AB5B4C /* ManualIndoorLocationProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ManualIndoorLocationProvider.framework; path = ManualIndoorLocationProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2956900240CD92DD13B9447AB54A2193 /* MWZApiFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZApiFilter.h; path = MapwizeForMapbox.framework/Headers/MWZApiFilter.h; sourceTree = "<group>"; };
-		2CDD268C346F924B4B7C3D8A8E93AF7A /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		2DFD1809964B8BBEE35A9449D90A3F32 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		32B848872EF9C36EEDBF81AD5E7A7075 /* MWZUniverse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZUniverse.h; path = MapwizeForMapbox.framework/Headers/MWZUniverse.h; sourceTree = "<group>"; };
-		353E2F44ACD78608C92982E0F6CD8032 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		2735F59423313ED74B62F8C9C8F49B61 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		27370A7E7314C4656352F577E5CAF7AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2943F0AC9E119F78CA509110092D35A1 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		2B21339E58B7841F2F21F35660157B9F /* ManualIndoorLocationProvider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManualIndoorLocationProvider-prefix.pch"; sourceTree = "<group>"; };
+		2C4DD0D8A408EE3F3BEC15A3C13428A1 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		2E874C5A2F5BD13F194B338C36BFFBAA /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		2FBB0AA8D8CE7AC036C5337A6C9EBF4C /* MWZDirectionWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZDirectionWrapper.h; path = MapwizeForMapbox.framework/Headers/MWZDirectionWrapper.h; sourceTree = "<group>"; };
+		2FD4910D9F14955E63514A477FA69B7A /* MWZDirection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZDirection.h; path = MapwizeForMapbox.framework/Headers/MWZDirection.h; sourceTree = "<group>"; };
+		32F545D50E65C6F32B82C5B053A0E79B /* ManualIndoorLocationProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ManualIndoorLocationProvider.modulemap; sourceTree = "<group>"; };
+		34065D576AB997FACE25A9504FC3BBC3 /* ILIndoorLocationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILIndoorLocationProvider.h; path = "indoor-location-ios/ILIndoorLocation/ILIndoorLocationProvider.h"; sourceTree = "<group>"; };
+		34BACEA5B8BFC5CC69B405D422D29F53 /* IndoorLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IndoorLocation-dummy.m"; sourceTree = "<group>"; };
 		36C8011D4E2CA598BC15DFDD98AA23F8 /* Pods_navisens_indoor_location_provider_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_navisens_indoor_location_provider_ios.framework; path = "Pods-navisens-indoor-location-provider-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3732A80CB72E452B5602A7B54712C5B0 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		3788A5B89AB0232E195F9EDF97C2D59C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		38156527CF707D064252A05BD3666DD2 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		389EEF58FA44AF954A015B6C4D66BBEA /* MapwizeForMapbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MapwizeForMapbox.h; path = MapwizeForMapbox.framework/Headers/MapwizeForMapbox.h; sourceTree = "<group>"; };
+		36FD377A9394873E81050836AD7662D0 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		38F3CC997989466B8FA07ADB6B4656BF /* Pods-navisens-indoor-location-provider-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-navisens-indoor-location-provider-ios.debug.xcconfig"; sourceTree = "<group>"; };
-		3C14093C6FEEDA43CF6220684F0EDC6D /* MWZDirection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZDirection.h; path = MapwizeForMapbox.framework/Headers/MWZDirection.h; sourceTree = "<group>"; };
-		3C9C45D2009CBF8D0122A28977F8953C /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		3D26C165C1A98BCC3F6B251FA67FF5B7 /* MWZLatLngFloorInVenue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZLatLngFloorInVenue.h; path = MapwizeForMapbox.framework/Headers/MWZLatLngFloorInVenue.h; sourceTree = "<group>"; };
-		3EE77348C08032FA02CC39635A62611D /* ILIndoorLocationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILIndoorLocationProvider.h; path = "indoor-location-ios/ILIndoorLocation/ILIndoorLocationProvider.h"; sourceTree = "<group>"; };
-		44FCD06CC4D4690A96BCAA711C9046A9 /* MWZDirectionWrapperAndDistance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZDirectionWrapperAndDistance.h; path = MapwizeForMapbox.framework/Headers/MWZDirectionWrapperAndDistance.h; sourceTree = "<group>"; };
+		3AD9F11425B13EB30D134CA8D33CDEBD /* MWZMapwizeAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZMapwizeAnnotation.h; path = MapwizeForMapbox.framework/Headers/MWZMapwizeAnnotation.h; sourceTree = "<group>"; };
+		3FFCBC6E5924AF8F39710EB26E01AD8E /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		413502CC6AABB8D754258D85618B7727 /* ILManualIndoorLocationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILManualIndoorLocationProvider.h; path = "manual-indoorlocation-provider-ios/Provider/ILManualIndoorLocationProvider.h"; sourceTree = "<group>"; };
+		4274C2F74EF103E6F95CB53E50DFDA8E /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		4538BAC2E518400ABC33F89F92D22730 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4555AF1FDDABD527107EB96DD4793B9A /* MWZLatLngFloor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZLatLngFloor.h; path = MapwizeForMapbox.framework/Headers/MWZLatLngFloor.h; sourceTree = "<group>"; };
-		485D122EF03823D65CEBFD51AD1B3C0C /* MWZMapwizeAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZMapwizeAnnotation.h; path = MapwizeForMapbox.framework/Headers/MWZMapwizeAnnotation.h; sourceTree = "<group>"; };
-		49074718E94DFC912ADCE767BBE4E5B5 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		4A1D045C8DE23E1D11AAC02778D2D6AE /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4BDC008CFE1AFC8F4DB640095660ADFF /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		4C04A3F1D3359C537DCD31753A88CB0A /* ILIndoorLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILIndoorLocation.h; path = "indoor-location-ios/ILIndoorLocation/ILIndoorLocation.h"; sourceTree = "<group>"; };
+		4C66E6F6A860CFA54FCBD0AACD598567 /* MapwizePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MapwizePlugin.h; path = MapwizeForMapbox.framework/Headers/MapwizePlugin.h; sourceTree = "<group>"; };
 		4C87446B666B4B86B80349B97CC5768F /* IndoorLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IndoorLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4483ECC72A2F449B910B522BDDB7A3 /* Pods-navisens-indoor-location-provider-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-navisens-indoor-location-provider-ios-frameworks.sh"; sourceTree = "<group>"; };
 		530941D5698A6311B9E0485B0F5FD3FB /* Pods-navisens-indoor-location-provider-ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-navisens-indoor-location-provider-ios-resources.sh"; sourceTree = "<group>"; };
-		533C36BF200CDD743C81E4FF28ED23EF /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = dynamic/Mapbox.framework; sourceTree = "<group>"; };
-		53F38706A70EDFE161C3ADC73E277F69 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		56A28F22368A3A1E4111E2D8CE261C1C /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		5F251F350BF889734BBEDA8E62D91D39 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		604121C6850A4182290BFE5855AC5A57 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		61C9D96E64A8B4266420B3C9D97A7678 /* ManualIndoorLocationProvider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManualIndoorLocationProvider.xcconfig; sourceTree = "<group>"; };
-		6343430850E0B0FCC3D39A2876B0611A /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		634E41D92239F88446E4EA37E0E8A664 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		5434CD939C69DC9FEB35D022C9BB551C /* MWZDistanceResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZDistanceResponse.h; path = MapwizeForMapbox.framework/Headers/MWZDistanceResponse.h; sourceTree = "<group>"; };
+		57DB2E3003EC47964CEF40CDDCB7295C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		5DB24126E0277B92C2CFF063BE60C910 /* MWZSearchParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZSearchParams.h; path = MapwizeForMapbox.framework/Headers/MWZSearchParams.h; sourceTree = "<group>"; };
+		60D085187A960E51E185446641F8FAF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61C63F0EC48F519A49F968D9569A4095 /* MWZTypeDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZTypeDefinition.h; path = MapwizeForMapbox.framework/Headers/MWZTypeDefinition.h; sourceTree = "<group>"; };
+		63BE402623F80660F0CCA55D38D1FF51 /* MWZFollowUserButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZFollowUserButton.h; path = MapwizeForMapbox.framework/Headers/MWZFollowUserButton.h; sourceTree = "<group>"; };
+		649859A80B0E2FCFDEA382C64BB18824 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		65858D2ED67E39CFB31EB56449B89ACA /* IndoorLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IndoorLocation.framework; path = IndoorLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D7551559D9D8791AF32A386191A921 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		6901F84D04F830B4857416DD64CF456F /* MWZApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZApi.h; path = MapwizeForMapbox.framework/Headers/MWZApi.h; sourceTree = "<group>"; };
-		694C1E07CC85BBCDCC48E320D15E2734 /* MWZLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZLayer.h; path = MapwizeForMapbox.framework/Headers/MWZLayer.h; sourceTree = "<group>"; };
-		6AD28604A12AFFE3F71FCFE15A286469 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		6D30451B7C52096B21DFF3DE98A89B04 /* MWZVenue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZVenue.h; path = MapwizeForMapbox.framework/Headers/MWZVenue.h; sourceTree = "<group>"; };
-		6D3063B8FB08148CD210AC570875592D /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		72608E453A0FF9A7EA7BB986E0282CBD /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		74A4AE276C7E461CFA12CBDB0BDCBD84 /* MWZDirectionWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZDirectionWrapper.h; path = MapwizeForMapbox.framework/Headers/MWZDirectionWrapper.h; sourceTree = "<group>"; };
-		74A5CF134EE90E403F71674EC86B7697 /* MWZFollowUserButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZFollowUserButton.h; path = MapwizeForMapbox.framework/Headers/MWZFollowUserButton.h; sourceTree = "<group>"; };
+		69BCDF05769EB052F49381288C6D2493 /* MWZLatLngFloor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZLatLngFloor.h; path = MapwizeForMapbox.framework/Headers/MWZLatLngFloor.h; sourceTree = "<group>"; };
+		69C41EE15165D1C96082CDE0EDD9D02C /* ManualIndoorLocationProvider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManualIndoorLocationProvider-umbrella.h"; sourceTree = "<group>"; };
+		6BA544EA3C293DE2D7DBBB703E5C9E49 /* MWZMapwizePluginDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZMapwizePluginDelegate.h; path = MapwizeForMapbox.framework/Headers/MWZMapwizePluginDelegate.h; sourceTree = "<group>"; };
+		6D863E8217EB349590C74695BAD8552D /* ManualIndoorLocationProvider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ManualIndoorLocationProvider-dummy.m"; sourceTree = "<group>"; };
+		6EDC3DB8A4D6E630FBA9190A02F68749 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		714E010240AE776EC6C0C515F6CDB401 /* IndoorLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IndoorLocation.h; path = "indoor-location-ios/ILIndoorLocation/IndoorLocation.h"; sourceTree = "<group>"; };
+		741098CDED866B1611A1F8C8FF82AB0A /* MWZDirectionOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZDirectionOptions.h; path = MapwizeForMapbox.framework/Headers/MWZDirectionOptions.h; sourceTree = "<group>"; };
 		74B4B4FE3C69338434CCD5493D84E939 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		75FA462D22461E015285AB72413FC49B /* ILIndoorLocationProviderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILIndoorLocationProviderDelegate.h; path = "indoor-location-ios/ILIndoorLocation/ILIndoorLocationProviderDelegate.h"; sourceTree = "<group>"; };
-		77191F089DE5B5F9CAA120E86CAFD439 /* IndoorLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IndoorLocation-dummy.m"; sourceTree = "<group>"; };
-		78421F434B16057A40622A7F5DD1E9AB /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		7BB610A6C75184770FACAB3815ADEFD4 /* MWZUISettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZUISettings.h; path = MapwizeForMapbox.framework/Headers/MWZUISettings.h; sourceTree = "<group>"; };
+		769B6844BE390DC0FB9B81217FD4166E /* MapwizeForMapbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MapwizeForMapbox.h; path = MapwizeForMapbox.framework/Headers/MapwizeForMapbox.h; sourceTree = "<group>"; };
+		78198FF29B57F9E396F86F3F8326988F /* MWZRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZRoute.h; path = MapwizeForMapbox.framework/Headers/MWZRoute.h; sourceTree = "<group>"; };
+		784487C40181C7F9F7435834BE716DDD /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		799C8F58C65BF825658622B21BE2C9C3 /* MWZVenue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZVenue.h; path = MapwizeForMapbox.framework/Headers/MWZVenue.h; sourceTree = "<group>"; };
+		7C0ADF0284D48C11833F30175A9744F6 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		7F3E0662A48553675D9974FD7BAB1E79 /* MWZApiFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZApiFilter.h; path = MapwizeForMapbox.framework/Headers/MWZApiFilter.h; sourceTree = "<group>"; };
 		800CE301D376C58688BB3E337C44FF60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8288A44004DAF6F111779CFEC1C1F57E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		832DB6A5F19E3EC8FCFC524082A84F7F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		835E483C6642F554A36DC92A6964B724 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		8501804B7212070EAD6603416771E5DC /* MWZOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZOptions.h; path = MapwizeForMapbox.framework/Headers/MWZOptions.h; sourceTree = "<group>"; };
-		8613DD05E8B2B73FC71A1302FDDFE835 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		87F5C4546601BC6C3F72DD3399BD73C8 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		8941CB0A6346D075AEDDFBB9822CE86B /* MWZTranslation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZTranslation.h; path = MapwizeForMapbox.framework/Headers/MWZTranslation.h; sourceTree = "<group>"; };
-		8D036D2BAC5BACC5FBEF7DDE94E4EB0F /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		83D383FB83F9F8D45F0E9F31AAE52332 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		88A3636B3907E0A831829E44F17E4395 /* IndoorLocation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IndoorLocation-prefix.pch"; sourceTree = "<group>"; };
+		8C4A0E56CEC21B55E7C68A648100331E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		92286DD98C061D71BC30178AFE67E7A9 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		925B3B41C9F499EA0DF194DF44C07652 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A18C688028875A3CA8AE31F241670D /* MWZTranslation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZTranslation.h; path = MapwizeForMapbox.framework/Headers/MWZTranslation.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94ABF66601F576DEAAE28C1AFD5295A2 /* MWZSearchParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZSearchParams.h; path = MapwizeForMapbox.framework/Headers/MWZSearchParams.h; sourceTree = "<group>"; };
-		95ADBEEB6ABDF019ACB4BDFFE875B6ED /* MWZParsedUrlObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZParsedUrlObject.h; path = MapwizeForMapbox.framework/Headers/MWZParsedUrlObject.h; sourceTree = "<group>"; };
-		9BBBB13F1E66A9B87062E76D8C193180 /* ManualIndoorLocationProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ManualIndoorLocationProvider.modulemap; sourceTree = "<group>"; };
-		A021A26B4CC199628F952177165922E2 /* MWZMapwizePluginDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZMapwizePluginDelegate.h; path = MapwizeForMapbox.framework/Headers/MWZMapwizePluginDelegate.h; sourceTree = "<group>"; };
-		A2F3518691D4C96C980AC65B6963FD81 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		A401797EEA0BC011BEB16942F9ABB8FF /* ILIndoorLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILIndoorLocation.h; path = "indoor-location-ios/ILIndoorLocation/ILIndoorLocation.h"; sourceTree = "<group>"; };
-		A472D941D7FB4AFE4DE8678E2AEB67DD /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9892FDEB222E1ED74B470D4D802A0B2D /* ILManualIndoorLocationProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILManualIndoorLocationProvider.m; path = "manual-indoorlocation-provider-ios/Provider/ILManualIndoorLocationProvider.m"; sourceTree = "<group>"; };
+		9A34B0D88320874C3B41D4A53E8E76B1 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		9B538B01FC58419E3E776FD179B880D4 /* MWZStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZStyle.h; path = MapwizeForMapbox.framework/Headers/MWZStyle.h; sourceTree = "<group>"; };
+		9C70A67C93E7F5DAA2E18A40D5143F67 /* MWZFollowUserModeEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZFollowUserModeEnum.h; path = MapwizeForMapbox.framework/Headers/MWZFollowUserModeEnum.h; sourceTree = "<group>"; };
+		A08EFB38CDD8C5D3AEEC43BF25E71B66 /* MWZDirectionPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZDirectionPoint.h; path = MapwizeForMapbox.framework/Headers/MWZDirectionPoint.h; sourceTree = "<group>"; };
+		A179E612718444359714EE09706E831B /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		A1E214872D46E9DE3028223344F4D117 /* ManualIndoorLocationProvider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManualIndoorLocationProvider.xcconfig; sourceTree = "<group>"; };
+		A1F38F506D7DADF1673E7DDE19CAA5F1 /* IndoorLocation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IndoorLocation.modulemap; sourceTree = "<group>"; };
+		A28011B79E3CD028B0B5B9B36076CDAF /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A386E1D7B63EAD684E9481AF31ED00B4 /* IndoorLocation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IndoorLocation.xcconfig; sourceTree = "<group>"; };
 		A66C918A2A41E9F82873553F63D9EC1E /* Pods-navisens-indoor-location-provider-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-navisens-indoor-location-provider-ios-dummy.m"; sourceTree = "<group>"; };
-		AC6D8823851D40132060F2AE214A787C /* ILIndoorLocationProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILIndoorLocationProvider.m; path = "indoor-location-ios/ILIndoorLocation/ILIndoorLocationProvider.m"; sourceTree = "<group>"; };
-		AD96FCB2303F95642783B83B9134944C /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		B0018C76D45E2BEA38712B6E60E7B20F /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		B0648D1159F317054AAA53BED5F867E8 /* IndoorLocation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IndoorLocation.modulemap; sourceTree = "<group>"; };
-		B2069F4A11167280F38E6B667FA5F641 /* IndoorLocation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IndoorLocation-prefix.pch"; sourceTree = "<group>"; };
-		B38A69C32AF1D444CFF450C5E2EA0315 /* MWZObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZObject.h; path = MapwizeForMapbox.framework/Headers/MWZObject.h; sourceTree = "<group>"; };
-		B53CF113F30C34AD00494CAC0E1A04B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B779D4F13616E90274DA1EEF2385EE4C /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		B96ED9CB16110E1CAA29C84B1AE8B87F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		BDBB51D1219ABB94F790E4CBF96508AE /* ILIndoorLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILIndoorLocation.m; path = "indoor-location-ios/ILIndoorLocation/ILIndoorLocation.m"; sourceTree = "<group>"; };
+		B288BF662CF83AC0D600C4256D4BE7D1 /* MWZLatLngFloorInVenue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZLatLngFloorInVenue.h; path = MapwizeForMapbox.framework/Headers/MWZLatLngFloorInVenue.h; sourceTree = "<group>"; };
+		B35C3921B87530C2D5E1226166035F61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B714A42AE178AF6542DA8003326275C5 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		B89976E3F4A70E7326CC0B692BA78FFB /* MWZUniverse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZUniverse.h; path = MapwizeForMapbox.framework/Headers/MWZUniverse.h; sourceTree = "<group>"; };
+		BC0A15E330B4E7B6574FC0694DCB01C7 /* MWZPlaceList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZPlaceList.h; path = MapwizeForMapbox.framework/Headers/MWZPlaceList.h; sourceTree = "<group>"; };
+		BF4E56A5169434A541466F7DAC682411 /* MWZLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZLayer.h; path = MapwizeForMapbox.framework/Headers/MWZLayer.h; sourceTree = "<group>"; };
 		C08D7510195603E3765919C84BA100FD /* Pods-navisens-indoor-location-provider-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-navisens-indoor-location-provider-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C4BFB9B0C57A5156B35B7121C4A65A1D /* IndoorLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IndoorLocation.h; path = "indoor-location-ios/ILIndoorLocation/IndoorLocation.h"; sourceTree = "<group>"; };
-		C833B3FDF26C1996676C0B863DEC07A3 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		C1C438805BEAE9605F27BA23992A7772 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		C558B814EF9280C91F8F31EE3A933FCF /* MapwizeForMapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapwizeForMapbox.framework; sourceTree = "<group>"; };
 		C86107D910F9DEC3BA60B29A7DE504BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB3C014846917436A68EBBA822F8F98C /* MWZLatLng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZLatLng.h; path = MapwizeForMapbox.framework/Headers/MWZLatLng.h; sourceTree = "<group>"; };
-		CBC4182BC5D94FBC8E0C5723197FE830 /* ManualIndoorLocationProvider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManualIndoorLocationProvider-prefix.pch"; sourceTree = "<group>"; };
-		CDF1811B214C3A831B784781EED65F25 /* MWZPlaceList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZPlaceList.h; path = MapwizeForMapbox.framework/Headers/MWZPlaceList.h; sourceTree = "<group>"; };
-		CEC83B7059F7C628CED12FD0110815A0 /* ManualIndoorLocationProvider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ManualIndoorLocationProvider-dummy.m"; sourceTree = "<group>"; };
-		D45E58C30C8E81F7AD9F86E297921BD6 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		CACC368C8745AD0D977D08686DE2489B /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CAFB796A5EF1EBE9D2F60C54802F78E4 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		D0ABE0DA77E3AE6318FB1AE6D996F43F /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		D676526169211EAB5388C507C1AE0376 /* Pods-navisens-indoor-location-provider-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-navisens-indoor-location-provider-ios-umbrella.h"; sourceTree = "<group>"; };
-		D74711477B29C681C96A79B12D29508E /* MapwizePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MapwizePlugin.h; path = MapwizeForMapbox.framework/Headers/MapwizePlugin.h; sourceTree = "<group>"; };
-		DF824D94FB0463844F0FDE1AF14A2CA1 /* IndoorLocation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IndoorLocation.xcconfig; sourceTree = "<group>"; };
-		E16CD49E09C8AD85A7ACD2419A332B10 /* ManualIndoorLocationProvider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManualIndoorLocationProvider-umbrella.h"; sourceTree = "<group>"; };
-		E95BE0468B828688DF0BF636CCFB0782 /* MWZStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZStyle.h; path = MapwizeForMapbox.framework/Headers/MWZStyle.h; sourceTree = "<group>"; };
+		D8BFBD65073E3732ECA54F4B5211DD42 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		D8CEF90BBB7F9AA501672E4297DDB5DB /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		DB567DAEBBEB2136F3B83D8BAB0C64E0 /* MWZApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZApi.h; path = MapwizeForMapbox.framework/Headers/MWZApi.h; sourceTree = "<group>"; };
+		DFCACF517D67CD617BD9C943DBC0B0B9 /* MWZOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZOptions.h; path = MapwizeForMapbox.framework/Headers/MWZOptions.h; sourceTree = "<group>"; };
+		E2F99B66151D58959AF5FE3B03684D4D /* ILIndoorLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILIndoorLocation.m; path = "indoor-location-ios/ILIndoorLocation/ILIndoorLocation.m"; sourceTree = "<group>"; };
+		E3C98EE1F24130813D8BC80C825ECD97 /* MotionDnaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MotionDnaSDK.framework; sourceTree = "<group>"; };
+		E4CC3E6C557CAC0E73CE555954BDD8FA /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		E53959BB1D02B9339667CA65D61A35DD /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		EA117129E7FAE33ACD85665ADC127EAB /* Pods-navisens-indoor-location-provider-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-navisens-indoor-location-provider-ios-acknowledgements.plist"; sourceTree = "<group>"; };
-		ECF61D3926054A23C8A6E623FA6899EA /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		ED42CD75960C02D2A6A4E86CD45962C6 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		F27CC05BD88AA24F75C32F84FAE85DDF /* MotionDnaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MotionDnaSDK.framework; sourceTree = "<group>"; };
-		F38B576F015689761BAD4FB7A10A01CC /* MWZDirectionPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZDirectionPoint.h; path = MapwizeForMapbox.framework/Headers/MWZDirectionPoint.h; sourceTree = "<group>"; };
-		F527C8D4251B42FE01BB6B045E489B20 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		F57333EE86F219D3C207B78E9BF7C4F5 /* IndoorLocation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IndoorLocation-umbrella.h"; sourceTree = "<group>"; };
-		FA6B7E3822D65C3E3501BDBAA85556AE /* MapwizeForMapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapwizeForMapbox.framework; sourceTree = "<group>"; };
-		FACB9CE71013EADF2E5081B6C6D1C4C6 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		FD800CE5D65ACCC7D0B36BC1485DB35A /* MWZPlace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZPlace.h; path = MapwizeForMapbox.framework/Headers/MWZPlace.h; sourceTree = "<group>"; };
+		EAA783464A62BAA340CEFC8E2E893F74 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		EAE53326AECFC811FD36749EBA935C31 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		ED42E36383D9BA19F75974BF8812AA68 /* MWZObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZObject.h; path = MapwizeForMapbox.framework/Headers/MWZObject.h; sourceTree = "<group>"; };
+		EE3474C28C594603FCDD5D464D74A041 /* ILIndoorLocationProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILIndoorLocationProvider.m; path = "indoor-location-ios/ILIndoorLocation/ILIndoorLocationProvider.m"; sourceTree = "<group>"; };
+		F3403E9E72C9C60FB05B88CA6E2A4327 /* MWZPlace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZPlace.h; path = MapwizeForMapbox.framework/Headers/MWZPlace.h; sourceTree = "<group>"; };
+		F668C15C8878C72E2B30CEBC4F09043B /* MWZLatLng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWZLatLng.h; path = MapwizeForMapbox.framework/Headers/MWZLatLng.h; sourceTree = "<group>"; };
+		F96246DB9734DA5FF930C37EF3AAC2F1 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,50 +258,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AEBA30FB2070DC567A1E7C743DC9F45 /* Pods */ = {
+		0CEFB1A29DA0CE7062663635A42017E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F38448696844DE07CEBED0B8D205143 /* AFNetworking */,
-				2B87ABDE6ABD2D8779724AF851066B04 /* IndoorLocation */,
-				ABEBDB28254955A5F423D076CCAD90DD /* ManualIndoorLocationProvider */,
-				31BD4642C313C1557151A9ECBE9EEA98 /* Mapbox-iOS-SDK */,
-				75594161CBD702B37286D2430F67F449 /* MapwizeForMapbox */,
-				283C09CFF86922DFD01B4B0AEA3A2D04 /* MotionDnaSDK */,
+				C558B814EF9280C91F8F31EE3A933FCF /* MapwizeForMapbox.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		283C09CFF86922DFD01B4B0AEA3A2D04 /* MotionDnaSDK */ = {
+		24CB128B3438CA3FDDDF12AAD3ED0FCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F1612672183860720CA6B38AFF791368 /* Frameworks */,
+				E3C98EE1F24130813D8BC80C825ECD97 /* MotionDnaSDK.framework */,
 			);
-			name = MotionDnaSDK;
-			path = MotionDnaSDK;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2B87ABDE6ABD2D8779724AF851066B04 /* IndoorLocation */ = {
+		2A7712D7897253B18D136BEDE9E43479 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				A401797EEA0BC011BEB16942F9ABB8FF /* ILIndoorLocation.h */,
-				BDBB51D1219ABB94F790E4CBF96508AE /* ILIndoorLocation.m */,
-				3EE77348C08032FA02CC39635A62611D /* ILIndoorLocationProvider.h */,
-				AC6D8823851D40132060F2AE214A787C /* ILIndoorLocationProvider.m */,
-				75FA462D22461E015285AB72413FC49B /* ILIndoorLocationProviderDelegate.h */,
-				C4BFB9B0C57A5156B35B7121C4A65A1D /* IndoorLocation.h */,
-				FF9464C1570E8E9D240EC65914E188B9 /* Support Files */,
+				00E585857314F6B95EEEDA3BD0A79F82 /* AFAutoPurgingImageCache.h */,
+				21030161FD2C15139F704D8B4135276A /* AFAutoPurgingImageCache.m */,
+				A179E612718444359714EE09706E831B /* AFImageDownloader.h */,
+				13E75A4D18F7A072392CCEE5279B5982 /* AFImageDownloader.m */,
+				8C4A0E56CEC21B55E7C68A648100331E /* AFNetworkActivityIndicatorManager.h */,
+				EAA783464A62BAA340CEFC8E2E893F74 /* AFNetworkActivityIndicatorManager.m */,
+				CAFB796A5EF1EBE9D2F60C54802F78E4 /* UIActivityIndicatorView+AFNetworking.h */,
+				2735F59423313ED74B62F8C9C8F49B61 /* UIActivityIndicatorView+AFNetworking.m */,
+				2943F0AC9E119F78CA509110092D35A1 /* UIButton+AFNetworking.h */,
+				14D7EC005A13006817D2E2332FE3EF8B /* UIButton+AFNetworking.m */,
+				E4CC3E6C557CAC0E73CE555954BDD8FA /* UIImage+AFNetworking.h */,
+				D8CEF90BBB7F9AA501672E4297DDB5DB /* UIImageView+AFNetworking.h */,
+				2C4DD0D8A408EE3F3BEC15A3C13428A1 /* UIImageView+AFNetworking.m */,
+				4BDC008CFE1AFC8F4DB640095660ADFF /* UIKit+AFNetworking.h */,
+				0CE40903396BF521741E78F12BA6DDE0 /* UIProgressView+AFNetworking.h */,
+				4274C2F74EF103E6F95CB53E50DFDA8E /* UIProgressView+AFNetworking.m */,
+				2E874C5A2F5BD13F194B338C36BFFBAA /* UIRefreshControl+AFNetworking.h */,
+				C1C438805BEAE9605F27BA23992A7772 /* UIRefreshControl+AFNetworking.m */,
+				7C0ADF0284D48C11833F30175A9744F6 /* UIWebView+AFNetworking.h */,
+				D0ABE0DA77E3AE6318FB1AE6D996F43F /* UIWebView+AFNetworking.m */,
 			);
-			name = IndoorLocation;
-			path = IndoorLocation;
+			name = UIKit;
 			sourceTree = "<group>";
 		};
-		31BD4642C313C1557151A9ECBE9EEA98 /* Mapbox-iOS-SDK */ = {
+		2A7BEF30802B0DF15A5652F5C8E1AA4E /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				CC81B7AE6836224C81688FDF75C607AD /* Frameworks */,
+				A28011B79E3CD028B0B5B9B36076CDAF /* AFNetworkReachabilityManager.h */,
+				832DB6A5F19E3EC8FCFC524082A84F7F /* AFNetworkReachabilityManager.m */,
 			);
-			name = "Mapbox-iOS-SDK";
-			path = "Mapbox-iOS-SDK";
+			name = Reachability;
 			sourceTree = "<group>";
 		};
 		378922979FC6EE5B4A53256042C93C14 /* iOS */ = {
@@ -315,63 +322,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		3E940A67F1829BA3FC1A57AE5D9536DD /* NSURLSession */ = {
+		60E6E90E219D2539312A25FAA1E1B487 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				AD96FCB2303F95642783B83B9134944C /* AFCompatibilityMacros.h */,
-				634E41D92239F88446E4EA37E0E8A664 /* AFHTTPSessionManager.h */,
-				ED42CD75960C02D2A6A4E86CD45962C6 /* AFHTTPSessionManager.m */,
-				6343430850E0B0FCC3D39A2876B0611A /* AFURLSessionManager.h */,
-				53F38706A70EDFE161C3ADC73E277F69 /* AFURLSessionManager.m */,
+				215C86A4E9B05AFA580DEE9CC892F2DF /* AFCompatibilityMacros.h */,
+				57DB2E3003EC47964CEF40CDDCB7295C /* AFHTTPSessionManager.h */,
+				9A34B0D88320874C3B41D4A53E8E76B1 /* AFHTTPSessionManager.m */,
+				E53959BB1D02B9339667CA65D61A35DD /* AFURLSessionManager.h */,
+				B714A42AE178AF6542DA8003326275C5 /* AFURLSessionManager.m */,
 			);
 			name = NSURLSession;
 			sourceTree = "<group>";
 		};
-		4EC96D5D263C2C1A78BF2C247C5808C5 /* Frameworks */ = {
+		672BDA7D6B716B379C9A1020B7E9B611 /* MotionDnaSDK */ = {
 			isa = PBXGroup;
 			children = (
-				FA6B7E3822D65C3E3501BDBAA85556AE /* MapwizeForMapbox.framework */,
+				24CB128B3438CA3FDDDF12AAD3ED0FCA /* Frameworks */,
 			);
-			name = Frameworks;
+			name = MotionDnaSDK;
+			path = MotionDnaSDK;
 			sourceTree = "<group>";
 		};
-		75594161CBD702B37286D2430F67F449 /* MapwizeForMapbox */ = {
+		70D95F149507B304518909004DB5E11A /* Mapbox-iOS-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				389EEF58FA44AF954A015B6C4D66BBEA /* MapwizeForMapbox.h */,
-				D74711477B29C681C96A79B12D29508E /* MapwizePlugin.h */,
-				6901F84D04F830B4857416DD64CF456F /* MWZApi.h */,
-				2956900240CD92DD13B9447AB54A2193 /* MWZApiFilter.h */,
-				3C14093C6FEEDA43CF6220684F0EDC6D /* MWZDirection.h */,
-				1692F74A1DA55CCA9626A769863C5084 /* MWZDirectionOptions.h */,
-				F38B576F015689761BAD4FB7A10A01CC /* MWZDirectionPoint.h */,
-				74A4AE276C7E461CFA12CBDB0BDCBD84 /* MWZDirectionWrapper.h */,
-				44FCD06CC4D4690A96BCAA711C9046A9 /* MWZDirectionWrapperAndDistance.h */,
-				1F1FAE5B5DAD243C4EF29176762698AC /* MWZDistanceResponse.h */,
-				74A5CF134EE90E403F71674EC86B7697 /* MWZFollowUserButton.h */,
-				04C6BC361CC91430ACF872837D1507E1 /* MWZFollowUserModeEnum.h */,
-				CB3C014846917436A68EBBA822F8F98C /* MWZLatLng.h */,
-				4555AF1FDDABD527107EB96DD4793B9A /* MWZLatLngFloor.h */,
-				3D26C165C1A98BCC3F6B251FA67FF5B7 /* MWZLatLngFloorInVenue.h */,
-				694C1E07CC85BBCDCC48E320D15E2734 /* MWZLayer.h */,
-				485D122EF03823D65CEBFD51AD1B3C0C /* MWZMapwizeAnnotation.h */,
-				A021A26B4CC199628F952177165922E2 /* MWZMapwizePluginDelegate.h */,
-				B38A69C32AF1D444CFF450C5E2EA0315 /* MWZObject.h */,
-				8501804B7212070EAD6603416771E5DC /* MWZOptions.h */,
-				95ADBEEB6ABDF019ACB4BDFFE875B6ED /* MWZParsedUrlObject.h */,
-				FD800CE5D65ACCC7D0B36BC1485DB35A /* MWZPlace.h */,
-				CDF1811B214C3A831B784781EED65F25 /* MWZPlaceList.h */,
-				0A5D1D5E85C026FF7BC61A344C68F291 /* MWZRoute.h */,
-				94ABF66601F576DEAAE28C1AFD5295A2 /* MWZSearchParams.h */,
-				E95BE0468B828688DF0BF636CCFB0782 /* MWZStyle.h */,
-				8941CB0A6346D075AEDDFBB9822CE86B /* MWZTranslation.h */,
-				7BB610A6C75184770FACAB3815ADEFD4 /* MWZUISettings.h */,
-				32B848872EF9C36EEDBF81AD5E7A7075 /* MWZUniverse.h */,
-				6D30451B7C52096B21DFF3DE98A89B04 /* MWZVenue.h */,
-				4EC96D5D263C2C1A78BF2C247C5808C5 /* Frameworks */,
+				EC6224F19A64529AE51CBADCB0F9FBBD /* Frameworks */,
 			);
-			name = MapwizeForMapbox;
-			path = MapwizeForMapbox;
+			name = "Mapbox-iOS-SDK";
+			path = "Mapbox-iOS-SDK";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -379,73 +357,143 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				DD6E51AFE2B1F3AC25A8C5D62CD50B2C /* Frameworks */,
-				1AEBA30FB2070DC567A1E7C743DC9F45 /* Pods */,
+				8AE12DE5BD55F45F7D16308A76CCEA73 /* Pods */,
 				E4A3785DA02D37D9F9D7B92B34FE9476 /* Products */,
 				C168A97459087770CC80E7325C5D9AF9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		81CF0F7147DF92A7A2BF37F7471DCD00 /* Support Files */ = {
+		8AE12DE5BD55F45F7D16308A76CCEA73 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				20B91553658650E46C64EF081A22D247 /* Info.plist */,
-				9BBBB13F1E66A9B87062E76D8C193180 /* ManualIndoorLocationProvider.modulemap */,
-				61C9D96E64A8B4266420B3C9D97A7678 /* ManualIndoorLocationProvider.xcconfig */,
-				CEC83B7059F7C628CED12FD0110815A0 /* ManualIndoorLocationProvider-dummy.m */,
-				CBC4182BC5D94FBC8E0C5723197FE830 /* ManualIndoorLocationProvider-prefix.pch */,
-				E16CD49E09C8AD85A7ACD2419A332B10 /* ManualIndoorLocationProvider-umbrella.h */,
+				9FB4C98C3F16D945BB4C152C7C569681 /* AFNetworking */,
+				A59C5C10EB183511446CEFFACAEB3F06 /* IndoorLocation */,
+				A6D8D8A2E857FF101A65CAA0F7502A18 /* ManualIndoorLocationProvider */,
+				70D95F149507B304518909004DB5E11A /* Mapbox-iOS-SDK */,
+				9A8ED37579B0A5EC65736BD5842730DA /* MapwizeForMapbox */,
+				672BDA7D6B716B379C9A1020B7E9B611 /* MotionDnaSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95348CAEAFD032F09123BFB0ACD31319 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F38F506D7DADF1673E7DDE19CAA5F1 /* IndoorLocation.modulemap */,
+				A386E1D7B63EAD684E9481AF31ED00B4 /* IndoorLocation.xcconfig */,
+				34BACEA5B8BFC5CC69B405D422D29F53 /* IndoorLocation-dummy.m */,
+				88A3636B3907E0A831829E44F17E4395 /* IndoorLocation-prefix.pch */,
+				175AC9F534EC716E9648C177A237B2B6 /* IndoorLocation-umbrella.h */,
+				B35C3921B87530C2D5E1226166035F61 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/ManualIndoorLocationProvider";
+			path = "../Target Support Files/IndoorLocation";
 			sourceTree = "<group>";
 		};
-		82D76A6CF14FC9B2D02AE9E375219226 /* Support Files */ = {
+		9A8ED37579B0A5EC65736BD5842730DA /* MapwizeForMapbox */ = {
 			isa = PBXGroup;
 			children = (
-				6AD28604A12AFFE3F71FCFE15A286469 /* AFNetworking.modulemap */,
-				3C9C45D2009CBF8D0122A28977F8953C /* AFNetworking.xcconfig */,
-				B779D4F13616E90274DA1EEF2385EE4C /* AFNetworking-dummy.m */,
-				2DFD1809964B8BBEE35A9449D90A3F32 /* AFNetworking-prefix.pch */,
-				0865D00B1BDBB80BE5017E3B600CCD17 /* AFNetworking-umbrella.h */,
-				0C59A26A458D8BC37368BBDEBAAE4FE5 /* Info.plist */,
+				769B6844BE390DC0FB9B81217FD4166E /* MapwizeForMapbox.h */,
+				4C66E6F6A860CFA54FCBD0AACD598567 /* MapwizePlugin.h */,
+				DB567DAEBBEB2136F3B83D8BAB0C64E0 /* MWZApi.h */,
+				7F3E0662A48553675D9974FD7BAB1E79 /* MWZApiFilter.h */,
+				2FD4910D9F14955E63514A477FA69B7A /* MWZDirection.h */,
+				741098CDED866B1611A1F8C8FF82AB0A /* MWZDirectionOptions.h */,
+				A08EFB38CDD8C5D3AEEC43BF25E71B66 /* MWZDirectionPoint.h */,
+				2FBB0AA8D8CE7AC036C5337A6C9EBF4C /* MWZDirectionWrapper.h */,
+				1E695E1CFDD5267B170A249D2BC0A7C3 /* MWZDirectionWrapperAndDistance.h */,
+				5434CD939C69DC9FEB35D022C9BB551C /* MWZDistanceResponse.h */,
+				63BE402623F80660F0CCA55D38D1FF51 /* MWZFollowUserButton.h */,
+				9C70A67C93E7F5DAA2E18A40D5143F67 /* MWZFollowUserModeEnum.h */,
+				F668C15C8878C72E2B30CEBC4F09043B /* MWZLatLng.h */,
+				69BCDF05769EB052F49381288C6D2493 /* MWZLatLngFloor.h */,
+				B288BF662CF83AC0D600C4256D4BE7D1 /* MWZLatLngFloorInVenue.h */,
+				BF4E56A5169434A541466F7DAC682411 /* MWZLayer.h */,
+				3AD9F11425B13EB30D134CA8D33CDEBD /* MWZMapwizeAnnotation.h */,
+				6BA544EA3C293DE2D7DBBB703E5C9E49 /* MWZMapwizePluginDelegate.h */,
+				ED42E36383D9BA19F75974BF8812AA68 /* MWZObject.h */,
+				DFCACF517D67CD617BD9C943DBC0B0B9 /* MWZOptions.h */,
+				120BCA0792E6F5B3E57C215B33CF34C7 /* MWZParsedUrlObject.h */,
+				F3403E9E72C9C60FB05B88CA6E2A4327 /* MWZPlace.h */,
+				BC0A15E330B4E7B6574FC0694DCB01C7 /* MWZPlaceList.h */,
+				78198FF29B57F9E396F86F3F8326988F /* MWZRoute.h */,
+				5DB24126E0277B92C2CFF063BE60C910 /* MWZSearchParams.h */,
+				9B538B01FC58419E3E776FD179B880D4 /* MWZStyle.h */,
+				92A18C688028875A3CA8AE31F241670D /* MWZTranslation.h */,
+				61C63F0EC48F519A49F968D9569A4095 /* MWZTypeDefinition.h */,
+				1C6ABE2A19E5C8EE51330D9B847D0203 /* MWZUISettings.h */,
+				B89976E3F4A70E7326CC0B692BA78FFB /* MWZUniverse.h */,
+				799C8F58C65BF825658622B21BE2C9C3 /* MWZVenue.h */,
+				0CEFB1A29DA0CE7062663635A42017E0 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
+			name = MapwizeForMapbox;
+			path = MapwizeForMapbox;
 			sourceTree = "<group>";
 		};
-		8874D2B2EE9CF5A7890520394C71AB14 /* Security */ = {
+		9FB4C98C3F16D945BB4C152C7C569681 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				78421F434B16057A40622A7F5DD1E9AB /* AFSecurityPolicy.h */,
-				B96ED9CB16110E1CAA29C84B1AE8B87F /* AFSecurityPolicy.m */,
-			);
-			name = Security;
-			sourceTree = "<group>";
-		};
-		9F38448696844DE07CEBED0B8D205143 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				078241421C9A8B7E50FB5E540D74E8AB /* AFNetworking.h */,
-				3E940A67F1829BA3FC1A57AE5D9536DD /* NSURLSession */,
-				C5EDFB73EB4E6E7186CBE1E7D6390A0A /* Reachability */,
-				8874D2B2EE9CF5A7890520394C71AB14 /* Security */,
-				C54E89B86934801262B9322DC8B5EB33 /* Serialization */,
-				82D76A6CF14FC9B2D02AE9E375219226 /* Support Files */,
-				FC064B67C5ECA8790044F10C475465C4 /* UIKit */,
+				3FFCBC6E5924AF8F39710EB26E01AD8E /* AFNetworking.h */,
+				60E6E90E219D2539312A25FAA1E1B487 /* NSURLSession */,
+				2A7BEF30802B0DF15A5652F5C8E1AA4E /* Reachability */,
+				EF587B1D6BFFAE32577A600B2653DBB1 /* Security */,
+				B7C97B3730644F789C063B85278DD434 /* Serialization */,
+				E0FCF7670A03CCED08A0A880B679298D /* Support Files */,
+				2A7712D7897253B18D136BEDE9E43479 /* UIKit */,
 			);
 			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		ABEBDB28254955A5F423D076CCAD90DD /* ManualIndoorLocationProvider */ = {
+		A59C5C10EB183511446CEFFACAEB3F06 /* IndoorLocation */ = {
 			isa = PBXGroup;
 			children = (
-				20BA2622842F7856288D13E1788D5344 /* ILManualIndoorLocationProvider.h */,
-				2204A4ABAD1371CC4834621515D28AB9 /* ILManualIndoorLocationProvider.m */,
-				81CF0F7147DF92A7A2BF37F7471DCD00 /* Support Files */,
+				4C04A3F1D3359C537DCD31753A88CB0A /* ILIndoorLocation.h */,
+				E2F99B66151D58959AF5FE3B03684D4D /* ILIndoorLocation.m */,
+				34065D576AB997FACE25A9504FC3BBC3 /* ILIndoorLocationProvider.h */,
+				EE3474C28C594603FCDD5D464D74A041 /* ILIndoorLocationProvider.m */,
+				173253C7B76A521A5F9687588A9BC280 /* ILIndoorLocationProviderDelegate.h */,
+				714E010240AE776EC6C0C515F6CDB401 /* IndoorLocation.h */,
+				95348CAEAFD032F09123BFB0ACD31319 /* Support Files */,
+			);
+			name = IndoorLocation;
+			path = IndoorLocation;
+			sourceTree = "<group>";
+		};
+		A6D8D8A2E857FF101A65CAA0F7502A18 /* ManualIndoorLocationProvider */ = {
+			isa = PBXGroup;
+			children = (
+				413502CC6AABB8D754258D85618B7727 /* ILManualIndoorLocationProvider.h */,
+				9892FDEB222E1ED74B470D4D802A0B2D /* ILManualIndoorLocationProvider.m */,
+				BA3A8281715D94E801588D8E1C5381F7 /* Support Files */,
 			);
 			name = ManualIndoorLocationProvider;
 			path = ManualIndoorLocationProvider;
+			sourceTree = "<group>";
+		};
+		B7C97B3730644F789C063B85278DD434 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				CACC368C8745AD0D977D08686DE2489B /* AFURLRequestSerialization.h */,
+				D8BFBD65073E3732ECA54F4B5211DD42 /* AFURLRequestSerialization.m */,
+				649859A80B0E2FCFDEA382C64BB18824 /* AFURLResponseSerialization.h */,
+				EAE53326AECFC811FD36749EBA935C31 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		BA3A8281715D94E801588D8E1C5381F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27370A7E7314C4656352F577E5CAF7AC /* Info.plist */,
+				32F545D50E65C6F32B82C5B053A0E79B /* ManualIndoorLocationProvider.modulemap */,
+				A1E214872D46E9DE3028223344F4D117 /* ManualIndoorLocationProvider.xcconfig */,
+				6D863E8217EB349590C74695BAD8552D /* ManualIndoorLocationProvider-dummy.m */,
+				2B21339E58B7841F2F21F35660157B9F /* ManualIndoorLocationProvider-prefix.pch */,
+				69C41EE15165D1C96082CDE0EDD9D02C /* ManualIndoorLocationProvider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ManualIndoorLocationProvider";
 			sourceTree = "<group>";
 		};
 		C168A97459087770CC80E7325C5D9AF9 /* Targets Support Files */ = {
@@ -456,34 +504,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C54E89B86934801262B9322DC8B5EB33 /* Serialization */ = {
-			isa = PBXGroup;
-			children = (
-				A472D941D7FB4AFE4DE8678E2AEB67DD /* AFURLRequestSerialization.h */,
-				3788A5B89AB0232E195F9EDF97C2D59C /* AFURLRequestSerialization.m */,
-				FACB9CE71013EADF2E5081B6C6D1C4C6 /* AFURLResponseSerialization.h */,
-				4A1D045C8DE23E1D11AAC02778D2D6AE /* AFURLResponseSerialization.m */,
-			);
-			name = Serialization;
-			sourceTree = "<group>";
-		};
-		C5EDFB73EB4E6E7186CBE1E7D6390A0A /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				1D01F747634EF50CAF5ECC36F3748805 /* AFNetworkReachabilityManager.h */,
-				56A28F22368A3A1E4111E2D8CE261C1C /* AFNetworkReachabilityManager.m */,
-			);
-			name = Reachability;
-			sourceTree = "<group>";
-		};
-		CC81B7AE6836224C81688FDF75C607AD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				533C36BF200CDD743C81E4FF28ED23EF /* Mapbox.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		DD6E51AFE2B1F3AC25A8C5D62CD50B2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,6 +511,20 @@
 				378922979FC6EE5B4A53256042C93C14 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0FCF7670A03CCED08A0A880B679298D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F96246DB9734DA5FF930C37EF3AAC2F1 /* AFNetworking.modulemap */,
+				784487C40181C7F9F7435834BE716DDD /* AFNetworking.xcconfig */,
+				83D383FB83F9F8D45F0E9F31AAE52332 /* AFNetworking-dummy.m */,
+				92286DD98C061D71BC30178AFE67E7A9 /* AFNetworking-prefix.pch */,
+				6EDC3DB8A4D6E630FBA9190A02F68749 /* AFNetworking-umbrella.h */,
+				60D085187A960E51E185446641F8FAF6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
 		E3B7A6747C44D6BE100B972E2553BC79 /* Pods-navisens-indoor-location-provider-ios */ = {
@@ -522,53 +556,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F1612672183860720CA6B38AFF791368 /* Frameworks */ = {
+		EC6224F19A64529AE51CBADCB0F9FBBD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F27CC05BD88AA24F75C32F84FAE85DDF /* MotionDnaSDK.framework */,
+				020E9A8CF0A040673C487A12032DCC0F /* Mapbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FC064B67C5ECA8790044F10C475465C4 /* UIKit */ = {
+		EF587B1D6BFFAE32577A600B2653DBB1 /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				A2F3518691D4C96C980AC65B6963FD81 /* AFAutoPurgingImageCache.h */,
-				5F251F350BF889734BBEDA8E62D91D39 /* AFAutoPurgingImageCache.m */,
-				8D036D2BAC5BACC5FBEF7DDE94E4EB0F /* AFImageDownloader.h */,
-				3732A80CB72E452B5602A7B54712C5B0 /* AFImageDownloader.m */,
-				49074718E94DFC912ADCE767BBE4E5B5 /* AFNetworkActivityIndicatorManager.h */,
-				F527C8D4251B42FE01BB6B045E489B20 /* AFNetworkActivityIndicatorManager.m */,
-				72608E453A0FF9A7EA7BB986E0282CBD /* UIActivityIndicatorView+AFNetworking.h */,
-				353E2F44ACD78608C92982E0F6CD8032 /* UIActivityIndicatorView+AFNetworking.m */,
-				65D7551559D9D8791AF32A386191A921 /* UIButton+AFNetworking.h */,
-				38156527CF707D064252A05BD3666DD2 /* UIButton+AFNetworking.m */,
-				2CDD268C346F924B4B7C3D8A8E93AF7A /* UIImage+AFNetworking.h */,
-				8613DD05E8B2B73FC71A1302FDDFE835 /* UIImageView+AFNetworking.h */,
-				17F43F7A28BB8AA7D218DECD139917C7 /* UIImageView+AFNetworking.m */,
-				604121C6850A4182290BFE5855AC5A57 /* UIKit+AFNetworking.h */,
-				87F5C4546601BC6C3F72DD3399BD73C8 /* UIProgressView+AFNetworking.h */,
-				B0018C76D45E2BEA38712B6E60E7B20F /* UIProgressView+AFNetworking.m */,
-				ECF61D3926054A23C8A6E623FA6899EA /* UIRefreshControl+AFNetworking.h */,
-				C833B3FDF26C1996676C0B863DEC07A3 /* UIRefreshControl+AFNetworking.m */,
-				6D3063B8FB08148CD210AC570875592D /* UIWebView+AFNetworking.h */,
-				D45E58C30C8E81F7AD9F86E297921BD6 /* UIWebView+AFNetworking.m */,
+				36FD377A9394873E81050836AD7662D0 /* AFSecurityPolicy.h */,
+				8288A44004DAF6F111779CFEC1C1F57E /* AFSecurityPolicy.m */,
 			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		FF9464C1570E8E9D240EC65914E188B9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B0648D1159F317054AAA53BED5F867E8 /* IndoorLocation.modulemap */,
-				DF824D94FB0463844F0FDE1AF14A2CA1 /* IndoorLocation.xcconfig */,
-				77191F089DE5B5F9CAA120E86CAFD439 /* IndoorLocation-dummy.m */,
-				B2069F4A11167280F38E6B667FA5F641 /* IndoorLocation-prefix.pch */,
-				F57333EE86F219D3C207B78E9BF7C4F5 /* IndoorLocation-umbrella.h */,
-				B53CF113F30C34AD00494CAC0E1A04B1 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/IndoorLocation";
+			name = Security;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -817,7 +819,7 @@
 /* Begin XCBuildConfiguration section */
 		30C327FF6CE07E39707239DC4B0C16B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C9D96E64A8B4266420B3C9D97A7678 /* ManualIndoorLocationProvider.xcconfig */;
+			baseConfigurationReference = A1E214872D46E9DE3028223344F4D117 /* ManualIndoorLocationProvider.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -847,7 +849,7 @@
 		};
 		3836BB4AEBB198A4352C2D0614E42B58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF824D94FB0463844F0FDE1AF14A2CA1 /* IndoorLocation.xcconfig */;
+			baseConfigurationReference = A386E1D7B63EAD684E9481AF31ED00B4 /* IndoorLocation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -935,7 +937,7 @@
 		};
 		9DB789882BAFB3FAAAC0CE3010D697E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C9C45D2009CBF8D0122A28977F8953C /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 784487C40181C7F9F7435834BE716DDD /* AFNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1028,7 +1030,7 @@
 		};
 		B698CAE37E6CF10E633657404D78A7BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C9D96E64A8B4266420B3C9D97A7678 /* ManualIndoorLocationProvider.xcconfig */;
+			baseConfigurationReference = A1E214872D46E9DE3028223344F4D117 /* ManualIndoorLocationProvider.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1093,7 +1095,7 @@
 		};
 		DF7FA40181E08DC392346D86E3A8405C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C9C45D2009CBF8D0122A28977F8953C /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 784487C40181C7F9F7435834BE716DDD /* AFNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1157,7 +1159,7 @@
 		};
 		FF187476BAEDF39703B48B0886A7802C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF824D94FB0463844F0FDE1AF14A2CA1 /* IndoorLocation.xcconfig */;
+			baseConfigurationReference = A386E1D7B63EAD684E9481AF31ED00B4 /* IndoorLocation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

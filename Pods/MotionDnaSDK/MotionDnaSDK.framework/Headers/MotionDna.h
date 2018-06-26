@@ -195,6 +195,7 @@ typedef enum MapObjectType MapObjectType;
   MotionStatistics motionStatistics_;
   MotionStatistics polygonMotionStatistics_;
   OrientationQuaternion quaternion_;
+  double timestamp_;
 }
 
 -(Location)getLocation;
@@ -209,6 +210,7 @@ typedef enum MapObjectType MapObjectType;
 -(MotionStatistics)getPolygonMotionStatistics;
 -(OrientationQuaternion)getQuaternion;
 -(XY)getDebugVector;
+-(double)getTimestamp;
 @end
 
 #endif

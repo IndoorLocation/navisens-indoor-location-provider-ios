@@ -2,14 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>MGLMapboxAccessToken</key>
-	<string>pk.mapwize</string>
-	<key>MWZMapwizeApiKey</key>
-	<string>1f04d780dc30b774c0c10f53e3c7d4ea</string>
-	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
-	<string>YES</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We need your authorization to display your location on the map.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -23,11 +15,19 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.mapwize</string>
+	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
+	<string>YES</string>
+	<key>MWZMapwizeApiKey</key>
+	<string>1f04d780dc30b774c0c10f53e3c7d4ea</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your authorization to display your location on the map.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
