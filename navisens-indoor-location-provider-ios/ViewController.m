@@ -42,8 +42,13 @@
     [motionDnaSdk setPowerMode:PERFORMANCE];// after start to override default values
     [self.provider startWith:motionDnaSdk];*/
     motionDnaSdk = [self.provider retrieveMotionDnaSdk];
-    [motionDnaSdk setAverageFloorHeight:4.8];
-    
+    //[motionDnaSdk setAverageFloorHeight:4.8];
+    [motionDnaSdk addFloorNumber:0 AndHeight:2.4];
+    [motionDnaSdk addFloorNumber:1 AndHeight:4.8];
+    [motionDnaSdk addFloorNumber:2 AndHeight:4.8];
+    [motionDnaSdk addFloorNumber:3 AndHeight:4.8];
+    [motionDnaSdk addFloorNumber:4 AndHeight:4.8];
+
 }
 
 - (void) plugin:(MapwizePlugin *)plugin didTapOnMap:(MWZLatLngFloor *)latLngFloor {
