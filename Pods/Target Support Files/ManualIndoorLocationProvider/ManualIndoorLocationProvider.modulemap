@@ -1,6 +1,0 @@
-framework module ManualIndoorLocationProvider {
-  umbrella header "ManualIndoorLocationProvider-umbrella.h"
-
-  export *
-  module * { export * }
-}
