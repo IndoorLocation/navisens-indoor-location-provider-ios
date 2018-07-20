@@ -17,16 +17,16 @@ PODS:
   - IndoorLocation (1.0.4)
   - ManualIndoorLocationProvider (1.0.1):
     - IndoorLocation (~> 1.0)
-  - Mapbox-iOS-SDK (4.0.2)
-  - MapwizeForMapbox (1.4.0):
+  - Mapbox-iOS-SDK (4.0.0)
+  - MapwizeForMapbox (1.4.2):
     - AFNetworking (= 3.2.1)
     - IndoorLocation (= 1.0.4)
-    - Mapbox-iOS-SDK (= 4.0.2)
+    - Mapbox-iOS-SDK (= 4.0.0)
   - MotionDnaSDK (1.5.0)
 
 DEPENDENCIES:
-  - ManualIndoorLocationProvider
-  - MapwizeForMapbox
+  - ManualIndoorLocationProvider (= 1.0.1)
+  - MapwizeForMapbox (= 1.4.2)
   - MotionDnaSDK (from `https://github.com/navisens/iOS-SDK.git`)
 
 SPEC REPOS:
@@ -50,10 +50,10 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   IndoorLocation: 9812c8c2d499ef25e6146ef90cf23f8d107213a8
   ManualIndoorLocationProvider: d88640a41b7ab0208de85e4197e8883afa2520f3
-  Mapbox-iOS-SDK: 02b15b70167d54b45fdc059737672a3a68cd780f
-  MapwizeForMapbox: 92a26f665f84988613368a5f59ed17ad44af50e5
+  Mapbox-iOS-SDK: 271754e96eb4434ba1b0a8c68432e1ea26fe9841
+  MapwizeForMapbox: bcdc612c41bc930117ebf13c60554a6415a2eed1
   MotionDnaSDK: 95d5634e4d051db6beb9fc6b7e3c56fc6a44668f
 
-PODFILE CHECKSUM: eddd4feddfa653c7c876a97349c52b8bb2282792
+PODFILE CHECKSUM: 9b341526828d02c72213c3e7dd18ea9c4d711e54
 
 COCOAPODS: 1.5.3
