@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '6.0'
   s.source       = { :git => "https://github.com/IndoorLocation/navisens-indoor-location-provider-ios.git", :tag => "#{s.version}" }
-  s.source_files  = "navisens-indoorlocation-provider-ios/Provider/*.{h,m}"
+  s.source_files  = "navisens-indoor-location-provider-ios/Provider/*.{h,m}"
   s.dependency "IndoorLocation", "1.0.4"
 end
