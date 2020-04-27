@@ -71,6 +71,7 @@
     NSString* navisensKey = @"YOUR_NAVISENS_KEY_HERE";
     
     self.navisensProvider = [[ILNavisensIndoorLocationProvider alloc] initWith:navisensKey sourceProvider:self.manualProvider];
+    [self.navisensProvider start];
     [self.mapwizeView setIndoorLocationProvider:self.navisensProvider];
 }
 
