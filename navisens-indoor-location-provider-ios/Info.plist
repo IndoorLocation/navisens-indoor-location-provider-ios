@@ -24,8 +24,8 @@
 	<string>pk.mapwize</string>
 	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
 	<string>YES</string>
-	<key>MWZMapwizeApiKey</key>
-	<string>1f04d780dc30b774c0c10f53e3c7d4ea</string>
+	<key>MWZApiKey</key>
+	<string>YOUR_MAPWIZE_API_KEY</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>We need your authorization to display your location on the map.</string>
 	<key>UILaunchStoryboardName</key>
